@@ -1,0 +1,29 @@
+# Every few hours, builds the US temporary flight restrictions from the FAA's public TFR list and publishes them as the
+# `us-notams.geojson` asset of the `notam-data-v1` release, which the apps download.
+name: us-tfr
+on:
+  schedule:
+    - cron: "25 */3 * * *"
+  workflow_dispatch: {}
+permissions:
+  contents: write
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Run the tests
+        run: cd Tools/notams && python3 -m unittest test_us_tfr test_gcaa_notams
+      - name: Build the areas file from the FAA TFR list
+        run: cd Tools/notams && python3 us_tfr.py --fetch --out ../../us-notams.geojson
+      - name: Stop if the list looked empty (never publish over a good file with a broken read)
+        run: python3 -c "import json,sys; d=json.load(open('us-notams.geojson')); sys.exit(0 if d['notamCount']>=5 and len(d['features'])>=5 else 1)"
+      - name: Publish
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release view notam-data-v1 >/dev/null 2>&1 || gh release create notam-data-v1 --title "NOTAM areas" --notes "Daily NOTAM areas. Informational only."
+          gh release upload notam-data-v1 us-notams.geojson --clobber

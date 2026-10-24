@@ -16,3 +16,6 @@ Informational only: not an official product and not for operational use.
 
 `.github/workflows/anac-notams.yml` does the same for Argentina (ANAC / EANA list, five FIR) with `Tools/notams/anac_notams.py`
 and publishes `ar-notams.geojson` in the same release.
+
+`us-tfr.yml` (FAA temporary flight restrictions, `us_tfr.py`) and `uk-notams.yml` (NATS bulletin, `uk_notams.py`) publish
+`us-notams.geojson` and `uk-notams.geojson` in the same release.

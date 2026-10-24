@@ -1,0 +1,29 @@
+# Every few hours, builds the UK NOTAM areas from the NATS Pre-flight Information Bulletin XML and publishes them as the
+# `uk-notams.geojson` asset of the `notam-data-v1` release, which the apps download.
+name: uk-notams
+on:
+  schedule:
+    - cron: "35 */3 * * *"
+  workflow_dispatch: {}
+permissions:
+  contents: write
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Run the tests
+        run: cd Tools/notams && python3 -m unittest test_uk_notams test_gcaa_notams
+      - name: Build the areas file from the NATS bulletin
+        run: cd Tools/notams && python3 uk_notams.py --fetch --out ../../uk-notams.geojson
+      - name: Stop if the bulletin looked empty (never publish over a good file with a broken read)
+        run: python3 -c "import json,sys; d=json.load(open('uk-notams.geojson')); sys.exit(0 if d['notamCount']>=50 and len(d['features'])>=10 else 1)"
+      - name: Publish
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release view notam-data-v1 >/dev/null 2>&1 || gh release create notam-data-v1 --title "NOTAM areas" --notes "Daily NOTAM areas. Informational only."
+          gh release upload notam-data-v1 uk-notams.geojson --clobber
