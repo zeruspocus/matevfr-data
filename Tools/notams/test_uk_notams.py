@@ -17,6 +17,7 @@ PIB = "<Pib><NotamList>" + "".join([
     notam("C", 6934, "WP", "DROPPING OF ARTICLES WI 5NM RADIUS OF 503945N 0015237W (3.2NM SE OF BRANKSOME PARK).", f="SFC", g="4700FT AMSL", d="1100-1600"),
     notam("L", 100, "RT", "TEMPORARY RESTRICTED AREA BOUNDED BY 513000N 0010000W 513000N 0000000W 512000N 0000000W 512000N 0010000W", f="SFC", g="FL100", end="PERM"),
     notam("A", 5, "RD", "DANGER AREA EGD123 ACTIVE"),
+    notam("V", 32, "RO", "SECURITY - HAZARDOUS SITUATION IN ETHIOPIA. UK OPERATORS ARE ADVISED TO TAKE RISK INTO ACCOUNT WI 5NM RADIUS OF 120000N 0383700E"),
     notam("L", 100, "RT", "THE SAME NOTAM IN ANOTHER SECTION OF THE BULLETIN"),
     notam("B", 7, "OB", "OBST CRANE WI 0.1NM RADIUS OF 523022N 0015244W"),
     notam("D", 9, "RD", "DANGER AREA CANCELLED", kind="C"),
@@ -29,8 +30,8 @@ class UkTests(unittest.TestCase):
         self.by_id = {f["properties"]["id"]: f for f in self.result["features"]}
 
     def test_only_areas_with_a_shape_in_their_text_are_kept(self):
-        self.assertEqual(set(self.by_id), {"J3377/26", "C6934/26", "L100/26"})
-        self.assertEqual(self.result["notamCount"], 5 + 0, "a repeated NOTAM is one and a cancellation is not counted")
+        self.assertEqual(set(self.by_id), {"J3377/26", "C6934/26", "L100/26", "V32/26"})
+        self.assertEqual(self.result["notamCount"], 6, "a repeated NOTAM is one and a cancellation is not counted")
 
     def test_danger_area_circle_with_the_height_from_its_text(self):
         p = self.by_id["J3377/26"]["properties"]
@@ -42,6 +43,9 @@ class UkTests(unittest.TestCase):
         self.assertEqual(ring[0], ring[-1])
         lat = sum(q[1] for q in ring[:-1]) / (len(ring) - 1)
         self.assertAlmostEqual(lat, 52 + 30 / 60 + 22 / 3600, places=3)
+
+    def test_a_security_advice_is_a_warning_not_a_restriction(self):
+        self.assertEqual(self.by_id["V32/26"]["properties"]["category"], "advisory")
 
     def test_parachute_area_uses_items_f_and_g(self):
         p = self.by_id["C6934/26"]["properties"]

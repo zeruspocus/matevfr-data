@@ -1,9 +1,9 @@
-# Every few hours, builds the US temporary flight restrictions from the FAA's public TFR list and publishes them as the
+# Every hour, builds the US temporary flight restrictions from the FAA's public TFR list and publishes them as the
 # `us-notams.geojson` asset of the `notam-data-v1` release, which the apps download.
 name: us-tfr
 on:
   schedule:
-    - cron: "25 */3 * * *"
+    - cron: "25 * * * *"   # every hour: a TFR can appear at any time
   workflow_dispatch: {}
 permissions:
   contents: write

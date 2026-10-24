@@ -29,9 +29,10 @@ SOURCE_PAGE = "https://www.nats.aero/do-it-online/ais/"
 PIB_URL = "https://pibs.nats.co.uk/operational/pibs/PIB.xml"
 USER_AGENT = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 Safari/605.1.15"
 
-# Q code letters 2 and 3 (ICAO): the kinds of area. The first group is drawn by the app today.
+# Q code letters 2 and 3 (ICAO): the kinds of area. The first group is drawn by the app today. QRO ("overflying") in the UK data are
+# security advice for operators (Mali, Ethiopia ...) and requests to avoid an event: warnings, not restrictions.
 CATEGORIES = {
-    "RA": "tra", "RD": "danger", "RM": "military", "RO": "restricted", "RP": "prohibited", "RR": "restricted", "RT": "tempRestricted",
+    "RA": "tra", "RD": "danger", "RM": "military", "RO": "advisory", "RP": "prohibited", "RR": "restricted", "RT": "tempRestricted",
     "WP": "parachute", "WE": "military", "WM": "military", "WU": "uas",
 }
 
