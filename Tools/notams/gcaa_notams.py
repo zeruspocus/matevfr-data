@@ -35,9 +35,10 @@ CATEGORIES = {
 }
 
 COORD = re.compile(r"(\d{4}(?:\d{2}(?:\.\d+)?)?)\s*([NS])\s*(\d{5}(?:\d{2}(?:\.\d+)?)?)\s*([EW])")
-BLOCK_START = re.compile(
-    r"\n(?=(?:NOTAM[NRC]\n)?A\d{4}/\d{2}(?: A\d{4}/\d{2})?\n(?:NOTAM[NRC]\n)?Q\))")
-NOISE = re.compile(r"^(?:As of \d.* UTC|\d{1,2}|=+PAGE \d+=+)$")
+# A NOTAM starts on a line that is only its number (and the one it replaces). The fields that follow come in a different order
+# depending on the tool that read the PDF, so they are found by their letter wherever they are.
+ID_LINE = re.compile(r"(?m)^(A\d{4}/\d{2})(?: A\d{4}/\d{2})?[ \t]*$")
+NOISE = re.compile(r"^(?:\d*As of \d.* UTC|\d{1,2}|=+PAGE \d+=+|NOTAM[NRC])$")
 
 
 def dms(value: str, hemisphere: str, degree_digits: int) -> float:
@@ -124,16 +125,23 @@ def clean(text: str) -> str:
 
 def fields(block: str) -> dict[str, str]:
     result = {}
-    for m in re.finditer(r"(?m)^([QABCDEFG])\)(.*?)(?=^[A-G]\)|\Z)", block, re.S):
-        result[m.group(1)] = m.group(2).strip()
+    for m in re.finditer(r"(?m)^([QABCDEFG])\)(.*?)(?=^[QA-G]\)|\Z)", block, re.S):
+        result.setdefault(m.group(1), m.group(2).strip())
     return result
+
+
+def blocks(text: str) -> list[tuple[str, str]]:
+    """(number, text up to the next number) for every NOTAM."""
+    cleaned = clean(text)
+    marks = list(ID_LINE.finditer(cleaned))
+    return [(m.group(1), cleaned[m.end(): marks[i + 1].start() if i + 1 < len(marks) else len(cleaned)])
+            for i, m in enumerate(marks)]
 
 
 def parse(text: str, generated: str | None = None) -> dict:
     features, skipped = [], {"no geometry": 0}
-    for block in BLOCK_START.split(clean(text)):
-        header = re.match(r"\s*(?:NOTAM[NRC]\n)?(A\d{4}/\d{2})", block)
-        if not header or "Q)" not in block:
+    for number, block in blocks(text):
+        if "Q)" not in block:
             continue
         f = fields(block)
         q = f.get("Q", "").split("/")
@@ -151,7 +159,7 @@ def parse(text: str, generated: str | None = None) -> dict:
             "type": "Feature",
             "geometry": shape,
             "properties": {
-                "id": header.group(1),
+                "id": number,
                 "category": category,
                 "qcode": qcode,
                 "location": f.get("A", "").split()[0] if f.get("A") else None,

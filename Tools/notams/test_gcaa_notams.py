@@ -55,7 +55,42 @@ G)174 FT AMSL
 """
 
 
+# The same NOTAM as another PDF reader gives it: the fields come in another order and a page number is glued to a line.
+SAMPLE_OTHER_ORDER = """
+=====PAGE 25=====
+A3378/26
+A)OMAE
+D)0030-1430
+E)TEMPO RESTRICTED AREA ESTABLISHED 
+IN AREA BOUNDED BY LINES JOINING:
+255303.07N 0560050.09E
+255253.00N 0560105.01E
+254602.86N 0555522.19E
+254612.73N 0555507.61E
+255303.07N 0560050.09E
+TFC LANDING OR TAKING OFF FROM INTL 
+AIRPORTS ARE EXEMPTED.
+NOTAMN
+Q)OMAE/QRTCA/IV/BO/W/000/020/2537N05540E024
+B)2610230030
+C)2610301430
+F)SFC 
+G)2,000 FT AMSL
+24As of 23 OCT 2026 23:27 UTC
+"""
+
+
 class ParserTests(unittest.TestCase):
+    def test_fields_in_another_order_give_the_same_area(self):
+        feature = g.parse(SAMPLE_OTHER_ORDER)["features"][0]
+        p = feature["properties"]
+        self.assertEqual((p["id"], p["category"]), ("A3378/26", "tempRestricted"))
+        self.assertEqual(p["upper"]["feet"], 2000)
+        self.assertEqual(p["validTo"], "2026-10-30T14:30:00Z")
+        self.assertEqual(len(feature["geometry"]["coordinates"][0]), 5)
+        self.assertNotIn("Q)", p["text"])
+
+
     def setUp(self):
         self.result = g.parse(SAMPLE, "2026-10-23T23:28:22Z")
         self.by_id = {f["properties"]["id"]: f for f in self.result["features"]}
