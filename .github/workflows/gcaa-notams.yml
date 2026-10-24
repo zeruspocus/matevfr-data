@@ -1,0 +1,33 @@
+# Once a day, after the GCAA updates its Valid NOTAM summary, builds the NOTAM areas file and publishes it as the
+# `omae-notams.geojson` asset of the `notam-data-v1` release, which the app downloads once a day.
+name: gcaa-notams
+on:
+  schedule:
+    # The GCAA makes its summary once a day around 23:30 UTC (03:30 in the UAE). 23:50, 00:40 and 02:30 UTC are the first try and two
+    # retries, all before a morning flight (07:00 local is 03:00 UTC); 06:40 and 12:40 catch a summary the GCAA issues again.
+    - cron: "50 23 * * *"
+    - cron: "40 0 * * *"
+    - cron: "30 2 * * *"
+    - cron: "40 6,12 * * *"
+  workflow_dispatch: {}
+permissions:
+  contents: write
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install pypdf
+      - name: Build the areas file from the newest GCAA PDF
+        run: python3 Tools/notams/gcaa_notams.py --fetch --out omae-notams.geojson
+      - name: Stop if nothing was found (never publish an empty file over a good one)
+        run: python3 -c "import json,sys; d=json.load(open('omae-notams.geojson')); sys.exit(0 if len(d['features'])>0 else 1)"
+      - name: Publish
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release view notam-data-v1 >/dev/null 2>&1 || gh release create notam-data-v1 --title "NOTAM areas" --notes "Daily NOTAM areas built from the GCAA Valid NOTAM summary. Informational only."
+          gh release upload notam-data-v1 omae-notams.geojson --clobber

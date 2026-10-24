@@ -7,3 +7,9 @@ This repo hosts only data: per-country GeoJSON packages derived from openAIP exp
 Each [Release](../../releases) carries the `.tar` archives and a `catalog.json` the app fetches to discover what's available, with a SHA-256 checksum per archive.
 
 **Data terms:** each package's own `manifest.json` (inside its archive) declares its source, license, and limitations — mostly openAIP exports, unverified, reference/planning use only, not for navigation.
+
+## NOTAM areas (UAE)
+
+`.github/workflows/gcaa-notams.yml` builds `omae-notams.geojson` from the GCAA's daily Valid NOTAM summary
+(`Tools/notams/gcaa_notams.py`) and publishes it as an asset of the `notam-data-v1` release. The MateVFR apps download it.
+Informational only: not an official product and not for operational use.
