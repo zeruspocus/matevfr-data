@@ -13,3 +13,6 @@ Each [Release](../../releases) carries the `.tar` archives and a `catalog.json` 
 `.github/workflows/gcaa-notams.yml` builds `omae-notams.geojson` from the GCAA's daily Valid NOTAM summary
 (`Tools/notams/gcaa_notams.py`) and publishes it as an asset of the `notam-data-v1` release. The MateVFR apps download it.
 Informational only: not an official product and not for operational use.
+
+`.github/workflows/anac-notams.yml` does the same for Argentina (ANAC / EANA list, five FIR) with `Tools/notams/anac_notams.py`
+and publishes `ar-notams.geojson` in the same release.
