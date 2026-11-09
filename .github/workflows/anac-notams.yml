@@ -19,6 +19,8 @@ jobs:
         run: cd Tools/notams && python3 -m unittest test_anac_notams test_gcaa_notams
       - name: Build the areas file from the ANAC lists
         run: cd Tools/notams && python3 anac_notams.py --fetch --out ../../ar-notams.geojson
+      - name: Add the hand-reviewed AIP supplement restrictions (they expire by themselves)
+        run: python3 Tools/notams/merge_curated.py ar-notams.geojson Tools/notams/curated_ar_sup_restrictions.json
       - name: Stop if the lists looked empty (never publish over a good file with a broken read)
         run: python3 -c "import json,sys; d=json.load(open('ar-notams.geojson')); sys.exit(0 if d['notamCount']>=5 else 1)"
       - name: Publish
