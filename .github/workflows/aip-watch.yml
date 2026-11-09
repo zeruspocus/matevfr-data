@@ -1,0 +1,30 @@
+# Once a week, looks at the ANAC AIP Argentina index. If a chapter the Argentina package is built from has a new
+# edition, opens a GitHub issue (GitHub e-mails the owner). If the ANAC page changed so the reader no longer works,
+# the run FAILS, and GitHub e-mails the owner about the failed run too.
+name: aip-watch
+on:
+  schedule:
+    - cron: "30 6 * * 1"
+  workflow_dispatch: {}
+permissions:
+  contents: write
+  issues: write
+jobs:
+  watch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Compare the ANAC index with the last known editions
+        run: python3 Tools/aip/aip_watch.py --baseline Tools/aip/aip_baseline.json --issue-file /tmp/issue.md
+      - name: Open an issue and remember the new editions
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          [ -f /tmp/issue.md ] || exit 0
+          gh issue create --title "New AIP Argentina edition" --body-file /tmp/issue.md
+          python3 Tools/aip/aip_watch.py --baseline Tools/aip/aip_baseline.json --update-baseline
+          git config user.name "aip-watch"; git config user.email "actions@users.noreply.github.com"
+          git add Tools/aip/aip_baseline.json && git commit -m "AIP Argentina: new editions seen" && git push
