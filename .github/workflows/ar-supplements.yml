@@ -1,0 +1,28 @@
+# Every few hours, reads the AIP supplements in force at the ANAC and publishes them as the `ar-supplements.json` asset of
+# the `notam-data-v1` release, which the apps download. If the ANAC page changes so the reader finds too few supplements,
+# the run fails (GitHub e-mails the owner) and the last good file stays published.
+name: ar-supplements
+on:
+  schedule:
+    - cron: "40 */3 * * *"
+  workflow_dispatch: {}
+permissions:
+  contents: write
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Run the tests
+        run: cd Tools/notams && python3 -m unittest test_ar_supplements
+      - name: Read the supplements in force
+        run: cd Tools/notams && python3 ar_supplements.py --fetch --out ../../ar-supplements.json
+      - name: Publish
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release view notam-data-v1 >/dev/null 2>&1 || gh release create notam-data-v1 --title "NOTAM areas" --notes "NOTAM areas and AIP supplements. Informational only."
+          gh release upload notam-data-v1 ar-supplements.json --clobber
