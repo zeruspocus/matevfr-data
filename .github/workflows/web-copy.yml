@@ -1,0 +1,59 @@
+# Copies the NOTAM and supplement files of the `notam-data-v1` release to the `web-data` branch, so the website can read them:
+# a browser cannot fetch a release asset (no CORS header on the download), but raw.githubusercontent.com sends
+# `Access-Control-Allow-Origin: *`. Nothing here changes what the other workflows publish or what the apps read.
+#
+# The branch is rewritten as ONE commit each time something changed (no history piles up) and is never edited by hand.
+# A file that is empty or not valid JSON is never copied: the previous copy stays. See Tools/web/web_copy.py.
+name: web-copy
+on:
+  schedule:
+    - cron: "10,40 * * * *"   # every 30 minutes
+  workflow_dispatch: {}
+  workflow_run:
+    workflows: [anac-notams, gcaa-notams, uk-notams, us-tfr, ar-supplements]
+    types: [completed]
+permissions:
+  contents: write
+concurrency:
+  group: web-data
+  cancel-in-progress: true
+jobs:
+  copy:
+    # After one of the data workflows, only when it succeeded.
+    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Run the tests
+        run: cd Tools/web && python3 -m unittest test_web_copy
+      - name: Get what the web-data branch holds now (it may not exist yet)
+        run: |
+          if git ls-remote --exit-code --heads origin web-data >/dev/null 2>&1; then
+            git clone --depth 1 --branch web-data "https://github.com/${GITHUB_REPOSITORY}.git" "$RUNNER_TEMP/previous"
+          else
+            mkdir -p "$RUNNER_TEMP/previous"
+          fi
+      - name: Download the release files, check them and lay out the branch
+        id: build
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python3 Tools/web/web_copy.py --out "$RUNNER_TEMP/out" --previous "$RUNNER_TEMP/previous" --repo "$GITHUB_REPOSITORY"
+      - name: Stop if there is nothing good to publish
+        if: steps.build.outputs.count == '0'
+        run: echo "No valid file at all; leaving the web-data branch as it is." && exit 1
+      - name: Publish as a single commit on web-data (only if a file changed)
+        if: steps.build.outputs.changed == 'true' && steps.build.outputs.count != '0'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          cd "$RUNNER_TEMP/out"
+          git init -q -b web-data
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -q -m "Web copy of the NOTAM data ($(date -u +%Y-%m-%dT%H:%MZ))"
+          git remote add origin "https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
+          git push --force origin web-data

@@ -19,3 +19,21 @@ and publishes `ar-notams.geojson` in the same release.
 
 `us-tfr.yml` (FAA temporary flight restrictions, `us_tfr.py`) and `uk-notams.yml` (NATS bulletin, `uk_notams.py`) publish
 `us-notams.geojson` and `uk-notams.geojson` in the same release.
+
+## `web-data` branch (for matevfr.com)
+
+A web page cannot read the assets of a GitHub release (the final download carries no `Access-Control-Allow-Origin` header),
+but `raw.githubusercontent.com` does send `Access-Control-Allow-Origin: *`. So `.github/workflows/web-copy.yml`
+(`Tools/web/web_copy.py`) copies these five release files to the `web-data` branch, where the website reads them:
+
+```
+notams/ar-notams.geojson   notams/omae-notams.geojson   notams/uk-notams.geojson   notams/us-notams.geojson
+notams/ar-supplements.json notams/index.json
+```
+
+e.g. `https://raw.githubusercontent.com/zeruspocus/matevfr-data/web-data/notams/ar-notams.geojson`.
+`index.json` lists each file with its size, `sha256` and the release asset's `updatedAt`, plus the time of the copy.
+
+- **Written only by the `web-copy` workflow** (every 30 minutes, after any of the five data workflows succeeds, or by hand). **Do not edit the branch by hand**: it is replaced by a single forced commit whenever a file changes.
+- A file that is empty or not valid JSON is never copied; the previous copy stays. Nothing is pushed when no file changed.
+- The release `notam-data-v1` and the workflows that fill it are unchanged: the apps keep reading the release, not this branch.
