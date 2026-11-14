@@ -1,0 +1,1372 @@
+{
+ "generatedAt": "2026-11-14T10:55:43Z",
+ "source": "ANAC AIS · Suplementos a la AIP (vigentes)",
+ "count": 142,
+ "supplements": [
+  {
+   "id": "A 265/26",
+   "title": "AD SANTA FE / SAUCE VIEJO (SVO/SAAV) - MODIFICACIONES EN LA AIP PARTE AD 2.8-2: TWY B, NUEVO VALOR PCN / CHANGES IN AIP PARTS AD 2.8-2: TWY B, NEW PCN VALUE (ESP/ENG) - PERM -",
+   "published": "2026-11-13",
+   "pdf": "https://ais.anac.gob.ar/descarga/sup-6af75a85298fe",
+   "codes": [
+    "SAAV"
+   ],
+   "kind": "aerodrome"
+  },
+  {
+   "id": "A 263/26",
+   "title": "AD SAN FERNANDO (FDO/SADF) - MODIFICACIÓN TEMPORAL EN EL PLANO DE ESTACIONAMIENTO Y RODAJE DE AERONAVES: AMPLIACIÓN DE PLATAFORMA COMERCIAL - ETAPA 3 Y ETAPA 4 (ESP/ENG) - TEMP -",
+   "published": "2026-11-10",
+   "pdf": "https://ais.anac.gob.ar/descarga/sup-6af3167a1b541",
+   "codes": [
+    "SADF"
+   ],
+   "kind": "aerodrome"
+  },
+  {
+   "id": "A 262/26",
+   "title": "AD EZEIZA - MINISTRO PISTARINI (EZE/SAEZ) - PROCEDIMIENTOS OPERACIONALES TEMPORALES POR OBRAS EN EL ÁREA DE MANIOBRAS PARA OPTIMIZAR LA FLUIDEZ DE LAS OPERACIONES AÉREAS Y LA SEGURIDAD OPERACIONAL (ETAPA III-A) (ESP/ENG) - TEMP -",
+   "published": "2026-11-07",
+   "pdf": "https://ais.anac.gob.ar/descarga/sup-6aef4ed8ac539",
+   "codes": [
+    "SAEZ"
+   ],
+   "kind": "aerodrome"
+  },
+  {
+   "id": "A 259/26",
+   "title": "AD SANTIAGO DEL ESTERO / VCOM. ÁNGEL DE LA PAZ ARAGONÉS (SDE/SANE) - MODIFICACIONES EN LA AIP PARTE AD / CHANGES IN AIP PART AD (ESP/ENG) - PERM -",
+   "published": "2026-11-06",
+   "pdf": "https://ais.anac.gob.ar/descarga/sup-6aee2cfa0c959",
+   "codes": [
+    "SANE"
+   ],
+   "kind": "aerodrome"
+  },
+  {
+   "id": "A 256/26",
+   "title": "AD VALLE DEL CONLARA (SRC/SAOS) - NOVEDADES TEMPORALES: PAPI RWY 02 U/S / TEMPORARYCHANGES: PAPI RWY 02 U/S (ESP/ENG) - TEMP -",
+   "published": "2026-11-03",
+   "pdf": "https://ais.anac.gob.ar/descarga/sup-6aea28449aac5",
+   "codes": [
+    "SAOS"
+   ],
+   "kind": "aerodrome"
+  },
+  {
+   "id": "A 253/26",
+   "title": "AD MALARGÜE / COMODORO D. R. SALOMÓN (MLG/SAMM) - MODIFICACIONES EN LA AIP PARTE AD 2.2-6 / CHANGES IN AIP PART AD 2.2-6 (ESP/ENG) - PERM -",
+   "published": "2026-10-30",
+   "pdf": "https://ais.anac.gob.ar/descarga/sup-6ae4ec4564bf4",
+   "codes": [
+    "SAMM"
+   ],
+   "kind": "aerodrome"
+  },
+  {
+   "id": "A 252/26",
+   "title": "AD SAN LUIS / BRIG. MAYOR D. CÉSAR RAÚL OJEDA (UIS/SAOU) - NOVEDADES TEMPORALES: / TEMPORARY CHANGES: VOR / DME UIS U/S (ESP/ENG) - TEMP -",
+   "published": "2026-10-30",
+   "pdf": "https://ais.anac.gob.ar/descarga/sup-6ae4bc0e9cac8",
+   "codes": [
+    "SAOU"
+   ],
+   "kind": "aerodrome"
+  },
+  {
+   "id": "A 251/26",
+   "title": "AD SANTIAGO DEL ESTERO / VCOM. ÁNGEL DE LA PAZ ARAGONÉS (SDE/SANE) - PROCEDIMIENTOS DE VUELO INSTRUMENTAL (IFP) SID/IAC RWY 04/22 / INSTRUMENT FLIGHT PROCEDURES (IFP) SID/IAC RWY 04/22 (ESP/ENG) (Eff: 26-NOV-2026) - AIRAC -",
+   "published": "2026-10-29",
+   "pdf": "https://ais.anac.gob.ar/descarga/sup-6ae391ec0578c",
+   "codes": [
+    "SANE"
+   ],
+   "kind": "aerodrome"
+  },
+  {
+   "id": "A 250/26",
+   "title": "AD GUALEGUAYCHÚ (GUA/SAAG): NOVEDADES TEMPORALES OFICINA ARO-AIS CLSD / TEMPORARY CHANGES CLSD ARO-AIS OFFICE (ESP/ENG) - TEMP -",
+   "published": "2026-10-27",
+   "pdf": "https://ais.anac.gob.ar/descarga/sup-6ae1161e2e63a",
+   "codes": [
+    "SAAG"
+   ],
+   "kind": "aerodrome"
+  },
+  {
+   "id": "A 245/26",
+   "title": "AD VIEDMA / GOBERNADOR CASTELLO (VIE /SAVV) NOVEDADES TEMPORALES: FARO DE AERÓDROMO (ABN) U/S / TEMPORARY CHANGES: AERODROME BEACON (ABN) U/S (ESP/ENG) - TEMP -",
+   "published": "2026-10-16",
+   "pdf": "https://ais.anac.gob.ar/descarga/sup-6ad2760996152",
+   "codes": [],
+   "kind": "aerodrome"
+  },
+  {
+   "id": "A 244/26",
+   "title": "AD MAR DEL PLATA / ASTOR PIAZZOLLA (MDP/SAZM) - MODIFICACIONES EN LA AIP PARTE AD 2.8, DATOS SOBRE PLATAFORMAS, CALLES DE RODAJE Y EMPLAZAMIENTOS / POSICIONES DE VERIFICACIÓN DE EQUIPO (ESP/ENG) - PERM -",
+   "published": "2026-10-16",
+   "pdf": "https://ais.anac.gob.ar/descarga/sup-6ad26bd762c52",
+   "codes": [
+    "SAZM"
+   ],
+   "kind": "aerodrome"
+  },
+  {
+   "id": "A 242/26",
+   "title": "AD PASO DE LOS LIBRES (LIB/SARL) - MODIFICACIONES EN AIP PARTE AD 2.3-6 HR MET / CHANGE IN AIP PART AD 2.3-6 HR MET (ESP/ENG) - PERM -",
+   "published": "2026-10-13",
+   "pdf": "https://ais.anac.gob.ar/descarga/sup-6acee7a7c4c33",
+   "codes": [
+    "SARL"
+   ],
+   "kind": "aerodrome"
+  },
+  {
+   "id": "A 241/26",
+   "title": "AIP ENR 5.1 ZONAS PROHIBIDAS, RESTRINGIDAS Y PELIGROSAS / PROHIBITED, RESTRICTED AND DANGER AREAS (ESP/ENG) - PERM -",
+   "published": "2026-10-13",
+   "pdf": "https://ais.anac.gob.ar/descarga/sup-6acee5e6ab703",
+   "codes": [],
+   "kind": "airspace"
+  },
+  {
+   "id": "A 240/26",
+   "title": "AIP ENR 3. RUTAS ATS / ATS ROUTES - MODIFICACIONES EN AIP PARTE ENR 3.3 - OTRAS RUTAS / CHANGES IN AIP PART ENR 3.3 - OTHER ROUTES (ESP/ENG) - PERM -",
+   "published": "2026-10-09",
+   "pdf": "https://ais.anac.gob.ar/descarga/sup-6ac94ba177f6f",
+   "codes": [],
+   "kind": "publication"
+  },
+  {
+   "id": "A 239/26",
+   "title": "AD CÓRDOBA / ING. AER. A. L. V. TARAVELLA (CBA/SACO) - INCORPORACIÓN DE SEÑALES HORIZONTALES EN EL ÁREA DE MANIOBRAS / INSTALLATION OF HORIZONTAL MARKINGS IN THE MANEUVERING AREA (ESP/ENG) - PERM -",
+   "published": "2026-10-09",
+   "pdf": "https://ais.anac.gob.ar/descarga/sup-6ac95169b2d9e",
+   "codes": [
+    "SACO"
+   ],
+   "kind": "aerodrome"
+  },
+  {
+   "id": "A 238/26",
+   "title": "AD RÍO GALLEGOS / PILOTO CIVIL N. FERNÁNDEZ (GAL/SAWG) MODIFICACIONES EN AIP PARTE AD 2.3-HORAS DE FUNCIONAMIENTO, AD 2.4 SERVICIOS E INSTALACIONES DE ESCALA Y AD 2.6 SERVICIOS DE SALVAMENTO Y EXTINCIÓN DE INCENDIOS (ESP/ENG) - PERM -",
+   "published": "2026-10-09",
+   "pdf": "https://ais.anac.gob.ar/descarga/sup-6ac927b8629e7",
+   "codes": [
+    "SAWG"
+   ],
+   "kind": "aerodrome"
+  },
+  {
+   "id": "A 237/26",
+   "title": "AD MENDOZA / EL PLUMERILLO (DOZ/SAME) - MODIFICACIONES EN LA AIP PARTE AD 2.3, AD 2.4 Y AD 2.20 / CHANGES IN AIP PARTS AD 2.3, AD 2.4 AND AD 2.20 (ESP/ENG) - PERM -",
+   "published": "2026-10-09",
+   "pdf": "https://ais.anac.gob.ar/descarga/sup-6ac9073502431",
+   "codes": [
+    "SAME"
+   ],
+   "kind": "aerodrome"
+  },
+  {
+   "id": "A 233/26",
+   "title": "AD CONCORDIA / COMODORO JUAN JOSÉ PIERRESTEGUI (DIA/SAAC) - MODIFICACIONES EN AIP PARTE AD 2.6-3/4 Y AD 2.17 / CHANGE IN AIP PART AD 2.6-3/4 AND AD 2.17 (ESP/ENG) - PERM -",
+   "published": "2026-10-06",
+   "pdf": "https://ais.anac.gob.ar/descarga/sup-6ac53c4ce8c49",
+   "codes": [
+    "SAAC"
+   ],
+   "kind": "aerodrome"
+  },
+  {
+   "id": "A 232/26",
+   "title": "AD TRELEW / ALMIRANTE ZAR (TRE/SAVT) - MODIFICACIONES EN IAC RNP RWY 07 Y EN IAC ILZ Z RWY 25 / CHANGES IN IAC RNP RWY 07 AND IAC ILZ Z RWY 25 (ESP/ENG) - PERM -",
+   "published": "2026-10-06",
+   "pdf": "https://ais.anac.gob.ar/descarga/sup-6ac50a3c9a06b",
+   "codes": [
+    "SAVT"
+   ],
+   "kind": "aerodrome"
+  },
+  {
+   "id": "A 231/26",
+   "title": "AD EZEIZA - MINISTRO PISTARINI (EZE/SAEZ) - NOVEDADES TEMPORALES RWY 17/35 CLSD HASTA 22-DIC-26 / TEMPORARY NEWS RWY 17/35 CLSD UNTIL 22-DEC-26 (ESP/ENG) - TEMP -",
+   "published": "2026-10-01",
+   "pdf": "https://ais.anac.gob.ar/descarga/sup-6abef4ede787a",
+   "codes": [
+    "SAEZ"
+   ],
+   "kind": "aerodrome"
+  },
+  {
+   "id": "A 229/26",
+   "title": "AD SANTA ROSA (OSA/SAZR) MODIFICACIONES EN AIP - PARTE AD 2.3-8 (HR ABASTECIMIENTO DE COMBUSTIBLE), AD 2.18 (HR OPERACIÓN) Y AD 2.19 (COORD GEO VOR/DME)(ESP/ENG) - PERM -",
+   "published": "2026-10-01",
+   "pdf": "https://ais.anac.gob.ar/descarga/sup-6abe807f33ed5",
+   "codes": [
+    "SAZR"
+   ],
+   "kind": "aerodrome"
+  },
+  {
+   "id": "A 228/26",
+   "title": "AIP PARTE GEN 1.2 ENTRADA, TRÁNSITO Y SALIDA DE AERONAVES: MODIFICACIONES EN AIP PARTE GEN 1.2-1 — 2. SOBREVUELO / AIP PART GEN 1.2 ENTRY, TRANSIT AND DEPARTURE OF AIRCRAFT: CHANGES IN AIP PART GEN 1.2-1 — 2. OVERFLIGHT (ESP/ENG) - PERM –",
+   "published": "2026-09-23",
+   "pdf": "https://ais.anac.gob.ar/descarga/sup-6ab3b89ed6d05",
+   "codes": [],
+   "kind": "publication"
+  },
+  {
+   "id": "A 226/26",
+   "title": "AD SANTA FE / SAUCE VIEJO (SVO/SAAV) - MODIFICACIONES EN LA AIP PARTE AD 2.2, AD 2.3, AD 2.4, AD 2.5, AD 2.7, AD 2.15 Y AD 2.20 / CHANGES IN AIP PARTS AD 2.2, AD 2.3, AD 2.4, AD 2.5, AD 2.7, AD 2.15 AND AD 2.20 (ESP/ENG) - PERM -",
+   "published": "2026-09-21",
+   "pdf": "https://ais.anac.gob.ar/descarga/sup-6ab271cadd4ac",
+   "codes": [
+    "SAAV"
+   ],
+   "kind": "aerodrome"
+  },
+  {
+   "id": "A 225/26",
+   "title": "AD GUALEGUAYCHÚ (GUA/SAAG) NOVEDADES TEMPORALES: ANEMÓMETRO MET U/S / TEMPORARY CHANGES: MET ANEMOMETER U/S (ESP/ENG) - TEMP -",
+   "published": "2026-09-17",
+   "pdf": "https://ais.anac.gob.ar/descarga/sup-6aabd848d29c6",
+   "codes": [
+    "SAAG"
+   ],
+   "kind": "aerodrome"
+  },
+  {
+   "id": "A 224/26",
+   "title": "AD BUENOS AIRES / AEROPARQUE JORGE NEWBERY (AER/SABE) - MODIFICACIONES EN AIP PARTE AD 2.2 y AD 2.20 / (ATENCIÓN : Nro. de SUP Corregido - Nro. correcto SUP A 224/26) - PERM -",
+   "published": "2026-09-11",
+   "pdf": "https://ais.anac.gob.ar/descarga/sup-6aa7e6d9c375c",
+   "codes": [
+    "SABE"
+   ],
+   "kind": "aerodrome"
+  },
+  {
+   "id": "A 222/26",
+   "title": "AD TANDIL / HÉROES DE MALVINAS (DIL/SAZT) MODIFICACIÓN EN LA AIP PARTES AD 2.17 Y AD 2.20 / CHANGE IN AIP PARTS AD 2.17 AND AD 2.20(ESP/ENG) - PERM -",
+   "published": "2026-09-11",
+   "pdf": "https://ais.anac.gob.ar/descarga/sup-6aa402b9bd78b",
+   "codes": [
+    "SAZT"
+   ],
+   "kind": "aerodrome"
+  },
+  {
+   "id": "A 221/26",
+   "title": "AD TUCUMÁN/TENIENTE BENJAMÍN MATIENZO (TUC/SANT) - NOVEDADES TEMPORALES FUEL AVGAS 100LL NOT AVBL / CHANGES TEMPORARY FUEL AVGAS 100LL NOT AVAILABLE (ESP/ENG) - TEMP -",
+   "published": "2026-09-08",
+   "pdf": "https://ais.anac.gob.ar/descarga/sup-6aa0606f28893",
+   "codes": [
+    "SANT"
+   ],
+   "kind": "aerodrome"
+  },
+  {
+   "id": "A 218/26",
+   "title": "AD EL PALOMAR (PAL/SADP) - MODIFICACIONES EN LA AIP PARTE AD 2.6, AD 2.20, AD 2.22 y AD 2.23 / CHANGES IN AIP PARTS AD 2.6, AD 2.20, AD 2.22 AND AD 2.23. (ESP/ENG) - PERM",
+   "published": "2026-09-03",
+   "pdf": "https://ais.anac.gob.ar/descarga/sup-6a99661051e8b",
+   "codes": [
+    "SADP"
+   ],
+   "kind": "aerodrome"
+  },
+  {
+   "id": "A 217/26",
+   "title": "AD VIEDMA / GOBERNADOR CASTELLO (VIE/SAVV) - COEFICIENTE DE FRICCIÓN DE RWY 11/29 / RWY 11/29 FRICTION COEFFICIENT (ESP/ENG) - TEMP -",
+   "published": "2026-09-02",
+   "pdf": "https://ais.anac.gob.ar/descarga/sup-6a99637eb08c9",
+   "codes": [
+    "SAVV"
+   ],
+   "kind": "aerodrome"
+  },
+  {
+   "id": "A 215/26",
+   "title": "AD SAN JUAN / DOMINGO FAUSTINO SARMIENTO (JUA/SANU) - MODIFICACIONES EN LA AIP PARTES AD 2.2, AD 2.3, AD 2.23 / CHANGES IN AIP PARTS AD 2.2, AD 2.3, AD 2.23 (ESP/ENG) - PERM -",
+   "published": "2026-08-26",
+   "pdf": "https://ais.anac.gob.ar/descarga/sup-6a8f6c2bd635c",
+   "codes": [
+    "SANU"
+   ],
+   "kind": "aerodrome"
+  },
+  {
+   "id": "A 213/26",
+   "title": "AD VICECOMODORO MARAMBIO (MBI/SAWB) - PROCEDIMIENTOS DE VUELO INSTRUMENTALES RNP RWY 23 USO EXCLUSIVO MILITAR / INSTRUMENT FLIGHT PROCEDURES RNP RWY 23 EXCLUSIVE MILITARY USE (ESP/ENG) - PERM -",
+   "published": "2026-08-24",
+   "pdf": "https://ais.anac.gob.ar/descarga/sup-6a8c62667ac04",
+   "codes": [
+    "SAWB"
+   ],
+   "kind": "aerodrome"
+  },
+  {
+   "id": "A 212/26",
+   "title": "AD EL CALAFATE (SAWC/ECA) NOVEDAD TEMPORAL ATIS U/S / TEMPORARY NEWS ATIS U/S(ESP/ENG) - TEMP –",
+   "published": "2026-08-21",
+   "pdf": "https://ais.anac.gob.ar/descarga/sup-6a8892c8aea26",
+   "codes": [],
+   "kind": "aerodrome"
+  },
+  {
+   "id": "A 211/26",
+   "title": "AD VILLA REYNOLDS (RYD/SAOR) NOVEDADES TEMPORALES SSEI U/S / TEMPORARY NEWS RFFS U/S (ESP/ENG) - TEMP –",
+   "published": "2026-08-21",
+   "pdf": "https://ais.anac.gob.ar/descarga/sup-6a884b3945685",
+   "codes": [
+    "SAOR"
+   ],
+   "kind": "aerodrome"
+  },
+  {
+   "id": "A 210/26",
+   "title": "AD RÍO CUARTO / ÁREA DE MATERIAL (TRC/SAOC) - PROCEDIMIENTOS DE VUELO INSTRUMENTALES RWY 05/23 - USO EXCLUSIVO MILITAR / INSTRUMENT FLIGHT PROCEDURES RWY 05/23 - EXCLUSIVE MILITARY USE (ESP/ENG) - PERM -",
+   "published": "2026-08-19",
+   "pdf": "https://ais.anac.gob.ar/descarga/sup-6a85d01238136",
+   "codes": [
+    "SAOC"
+   ],
+   "kind": "aerodrome"
+  },
+  {
+   "id": "A 209/26",
+   "title": "PROCEDIMIENTOS DE VUELOS INSTRUMENTALES (IFP) SUSPENDIDOS / SUSPENDED INSTRUMENT FLIGHT PROCEDURES (IFP) (ESP/ENG) - TEMP –",
+   "published": "2026-08-12",
+   "pdf": "https://ais.anac.gob.ar/descarga/sup-6a7c8f4aaacb4",
+   "codes": [],
+   "kind": "other"
+  },
+  {
+   "id": "A 208/26",
+   "title": "AD JUJUY / GOBERNADOR HORACIO GUZMÁN (JUJ / SASJ) MODIFICACIONES EN LA AIP PARTE AD 2.3 / CHANGES IN AIP PARTS AD 2.3. (ESP/ENG) - PERM –",
+   "published": "2026-08-11",
+   "pdf": "https://ais.anac.gob.ar/descarga/sup-6a7b5f0eb1c91",
+   "codes": [],
+   "kind": "aerodrome"
+  },
+  {
+   "id": "A 207/26",
+   "title": "AD CONCORDIA / COMODORO JUAN JOSÉ PIERRESTEGUI (DIA/SAAC) NOVEDADES TEMPORALES PAPI RWY 04/22 U/S / TEMPORARY NEWS U/S PAPI RWY 04/22 U/S(ESP/ENG) - TEMP –",
+   "published": "2026-08-10",
+   "pdf": "https://ais.anac.gob.ar/descarga/sup-6a7a1db58ff23",
+   "codes": [
+    "SAAC"
+   ],
+   "kind": "aerodrome"
+  },
+  {
+   "id": "A 204/26",
+   "title": "AD VICECOMODORO MARAMBIO (MBI/SAWB) - MODIFICACIONES EN LA AIP PARTE AD 2.0 / CHANGES TO AIP PART AD 2.0 (ESP/ENG) - PERM -",
+   "published": "2026-08-05",
+   "pdf": "https://ais.anac.gob.ar/descarga/sup-6a73990ce660e",
+   "codes": [
+    "SAWB"
+   ],
+   "kind": "aerodrome"
+  },
+  {
+   "id": "A 199/26",
+   "title": "AD TUCUMÁN/TENIENTE BENJAMÍN MATIENZO (TUC/SANT) - MODIFICACIONES EN LOS IFP SID, STAR & IAC: NUEVA FRECUENCIA ATIS 127.55 MHZ / CHANGES IN THE SID, STAR & IAC IFP: NEW ATIS FREQUENCY 127.55 MHZ (ESP/ENG) - PERM -",
+   "published": "2026-07-29",
+   "pdf": "https://ais.anac.gob.ar/descarga/sup-6a6a4cee8a00c",
+   "codes": [
+    "SANT"
+   ],
+   "kind": "aerodrome"
+  },
+  {
+   "id": "A 198/26",
+   "title": "AD BAHÍA BLANCA / COMANDANTE ESPORA (BCA/SAZB) MODIFICACIONES EN LA AIP PARTE AD 2.2-6 (TEL ARO/AIS) / CHANGES TO AIP PART AD 2.2-6 (ARO/AIS TEL) (ESP/ENG) -PERM–",
+   "published": "2026-07-29",
+   "pdf": "https://ais.anac.gob.ar/descarga/sup-6a6a3f2dbff21",
+   "codes": [
+    "SAZB"
+   ],
+   "kind": "aerodrome"
+  },
+  {
+   "id": "A 196/26",
+   "title": "AIP PARTE GEN 3.5 - SERVICIOS METEOROLÓGICOS / AIP PART GEN 3.5 - WEATHER SERVICES - MODIFICACIONES EN LA TABLA — GEN 3.5.1 AWOS OPERATIVO AD SAME Y SAZN / CHANGES IN THE TABLE — GEN 3.5.1 AWOS OPERATIONAL AT SAME AND SAZN AD (ESP/ENG) - PERM -",
+   "published": "2026-07-27",
+   "pdf": "https://ais.anac.gob.ar/descarga/sup-6a679fa79a1e0",
+   "codes": [],
+   "kind": "publication"
+  },
+  {
+   "id": "A 195/26",
+   "title": "AD PASO DE LOS LIBRES (LIB/SARL) - NOVEDADES TEMPORALES RWY 18/36 Y TWY “A” CLSD / TEMPORARY NEWS OF RWY 18/36 AND TWY “A” CLSD (ESP/ENG) - TEMP -",
+   "published": "2026-07-24",
+   "pdf": "https://ais.anac.gob.ar/descarga/sup-6a63b9f9a17a6",
+   "codes": [
+    "SARL"
+   ],
+   "kind": "aerodrome"
+  },
+  {
+   "id": "A 194/26",
+   "title": "AD ROSARIO / ISLAS MALVINAS (ROS/SAAR) - MODIFICACIONES EN LA AIP PARTE AD 2.9, AD 2.14, AD 2.15 Y PLANOS / CHANGES TO AIP PART AD 2.9, AD 2.14, AD 2.15 AND CHARTS (ESP/ENG) - PERM -",
+   "published": "2026-07-24",
+   "pdf": "https://ais.anac.gob.ar/descarga/sup-6a63aee31a1e2",
+   "codes": [
+    "SAAR"
+   ],
+   "kind": "aerodrome"
+  },
+  {
+   "id": "A 192/26",
+   "title": "AD SANTA FE / SAUCE VIEJO (SVO/SAAV) - NOVEDAD TEMPORAL LGT OBST U/S / TEMPORARY NEWS LGT OBST U/S (ESP/ENG) - TEMP -",
+   "published": "2026-07-24",
+   "pdf": "https://ais.anac.gob.ar/descarga/sup-6a63899874142",
+   "codes": [
+    "SAAV"
+   ],
+   "kind": "aerodrome"
+  },
+  {
+   "id": "A 191/26",
+   "title": "AD FORMOSA (FSA/SARF) - NOVEDAD TEMPORAL DEL SERVICIO DE SALVAMENTO Y EXTINCIÓN DE INCENDIOS (SSEI) CAT 6 / TEMPORARY NEWS TO THE RESCUE AND FIRE FIGHTING SERVICE (RFFS) CAT 6 (ESP/ENG) - TEMP -",
+   "published": "2026-07-24",
+   "pdf": "https://ais.anac.gob.ar/descarga/sup-6a6382f92a151",
+   "codes": [
+    "RFFS",
+    "SARF",
+    "SSEI"
+   ],
+   "kind": "aerodrome"
+  },
+  {
+   "id": "A 190/26",
+   "title": "AIP PARTE AD 1.3 - MODIFICACIONES EN EL ÍNDICE DE AERÓDROMOS / CHANGES TO AERODROME INDEX (ESP/ENG) - PERM -",
+   "published": "2026-07-23",
+   "pdf": "https://ais.anac.gob.ar/descarga/sup-6a623047171e7",
+   "codes": [],
+   "kind": "publication"
+  },
+  {
+   "id": "A 189/26",
+   "title": "AD CORRIENTES (CRR/SARC) - NOVEDADES TEMPORALES LUCES DE OBSTÁCULO U/S / TEMPORARY NEWS U/S OBSTACLE LIGHTS (ESP/ENG) - TEMP -",
+   "published": "2026-07-21",
+   "pdf": "https://ais.anac.gob.ar/descarga/sup-6a5f9537adfe1",
+   "codes": [
+    "SARC"
+   ],
+   "kind": "aerodrome"
+  },
+  {
+   "id": "A 188/26",
+   "title": "AD MENDOZA / EL PLUMERILLO (DOZ/SAME) - MODIFICACIONES EN AIP DE LAS IAC: ILS “Z”, ILS “Y” & RNP DE LA PISTA 36 / CHANGES IN AIP OF THE IAC: ILS “Z”, ILS “Y” & RNP OF THE RWY 36 (ESP/ENG) (Eff: 3-SET-2026) - AIRAC -",
+   "published": "2026-07-21",
+   "pdf": "https://ais.anac.gob.ar/descarga/sup-6a5f818380713",
+   "codes": [
+    "SAME"
+   ],
+   "kind": "aerodrome"
+  },
+  {
+   "id": "A 187/26",
+   "title": "ESQUEL / BRIGADIER GENERAL ANTONIO PARODI (ESQ/SAVE) - MODIFICACIONES EN LA AIP PARTE AD 2.3-12 — CONTACTOS SENASA / CHANGES IN THE AIP PART AD AD 2.3-12 — SENASA CONTACTS (ESP/ENG) - PERM -",
+   "published": "2026-07-20",
+   "pdf": "https://ais.anac.gob.ar/descarga/sup-6a5e74ca13ca0",
+   "codes": [
+    "SAVE"
+   ],
+   "kind": "publication"
+  },
+  {
+   "id": "A 186/26",
+   "title": "AD NEUQUÉN / PRESIDENTE PERÓN (NEU/SAZN) - MODIFICACIONES EN AIP CARTAS DE PROCEDIMIENTO DE VUELO INSTRUMENTAL / CHANGES IN AIP INSTRUMENTAL FLIGHT PROCEDURE CHARTS (ESP/ENG) (Eff: 3-SET-2026) - AIRAC -",
+   "published": "2026-07-20",
+   "pdf": "https://ais.anac.gob.ar/descarga/sup-6a5f83434d1e8",
+   "codes": [
+    "SAZN"
+   ],
+   "kind": "aerodrome"
+  },
+  {
+   "id": "A 184/26",
+   "title": "AD BUENOS AIRES / AEROPARQUE JORGE NEWBERY (AER/SABE) - MODIFICACIONES EN PSN 13, PSN 14, PSN 15, PSN 20, PSN 21, PSN 24 Y PSN 25 / CHANGES IN PSN 13, PSN 14, PSN 15, PSN 20, PSN 21, PSN 24 AND PSN 25 (ESP/ENG) - PERM -",
+   "published": "2026-07-17",
+   "pdf": "https://ais.anac.gob.ar/descarga/sup-6a5abd4f97ce7",
+   "codes": [
+    "SABE"
+   ],
+   "kind": "aerodrome"
+  },
+  {
+   "id": "A 183/26",
+   "title": "AD BAHÍA BLANCA / COMANDANTE ESPORA (BCA/SAZB) - MODIFICACIONES EN AIP CARTAS DE PROCEDIMIENTO DE VUELO INSTRUMENTAL / CHANGES IN AIP INSTRUMENTAL FLIGHT PROCEDURE CHARTS (ESP/ENG) (Eff: 3-SET-2026) - AIRAC -",
+   "published": "2026-07-16",
+   "pdf": "https://ais.anac.gob.ar/descarga/sup-6a59320adc0c5",
+   "codes": [
+    "SAZB"
+   ],
+   "kind": "aerodrome"
+  },
+  {
+   "id": "A 182/26",
+   "title": "AD CATARATAS DEL IGUAZÚ / MAYOR D. CARLOS EDUARDO KRAUSE (IGU/SARI) - MODIFICACIONES EN AIP CARTAS DE PROCEDIMIENTO DE VUELO INSTRUMENTAL / CHANGES IN AIP INSTRUMENTAL FLIGHT PROCEDURE CHARTS (ESP/ENG) (Eff: 3-SET-2026) - AIRAC -",
+   "published": "2026-07-16",
+   "pdf": "https://ais.anac.gob.ar/descarga/sup-6a5931dec7828",
+   "codes": [
+    "SARI"
+   ],
+   "kind": "aerodrome"
+  },
+  {
+   "id": "A 181/26",
+   "title": "AD TUCUMÁN/TENIENTE BENJAMÍN MATIENZO (TUC/SANT) - MODIFICACIONES EN LA AIP PARTE AD 2.6-3: CAPACIDAD PARA RETIRAR AERONAVES INUTILIZADAS / CHANGES IN THE AIP PART AD AD 2.6-3: CAPABILITY FOR REMOVAL OF DISABLED AIRCRAFT (ESP/ENG) - PERM -",
+   "published": "2026-07-16",
+   "pdf": "https://ais.anac.gob.ar/descarga/sup-6a592db700883",
+   "codes": [
+    "SANT"
+   ],
+   "kind": "aerodrome"
+  },
+  {
+   "id": "A 179/26",
+   "title": "AD MORÓN (MOR/SADM) - MODIFICACIONES EN LA AIP PARTE AD 2.3 HR ATS-ARO/AIS / CHANGES IN THE AIP PART AD 2.3 ATS-ARO/AIS HR (ESP/ENG) - PERM -",
+   "published": "2026-07-14",
+   "pdf": "https://ais.anac.gob.ar/descarga/sup-6a5644576f319",
+   "codes": [
+    "SADM"
+   ],
+   "kind": "aerodrome"
+  },
+  {
+   "id": "A 177/26",
+   "title": "AD VIEDMA / GOBERNADOR CASTELLO (VIE/SAVV) MODIFICACIONES EN LAS IAC VOR RWY 11, RNP RWY 29 / CHANGES IN THE IAC VOR RWY 11, RNP RWY 29 (ESP/ENG) - PERM –",
+   "published": "2026-07-08",
+   "pdf": "https://ais.anac.gob.ar/descarga/sup-6a4e96d369f22",
+   "codes": [
+    "SAVV"
+   ],
+   "kind": "aerodrome"
+  },
+  {
+   "id": "A 174/26",
+   "title": "AD ROSARIO / ISLAS MALVINAS (ROS/SAAR) - MODIFICACIONES EN LA AIP PARTE AD 2.2-6 (TEL ARO/AIS), AD 2.3-9 (SERVICIOS DE ESCALA) Y AD 2.23 (TIEMPO DE PERNOCTE) / CHANGES TO AIP PART AD 2.2-6 (ARO/AIS TEL), AD 2.3-9 (HANDLING) AND AD 2.23 (OVERNIGHT TIME) (E",
+   "published": "2026-07-06",
+   "pdf": "https://ais.anac.gob.ar/descarga/sup-6a4e5f587b5f8",
+   "codes": [
+    "SAAR"
+   ],
+   "kind": "aerodrome"
+  },
+  {
+   "id": "A 173/26",
+   "title": "AD CATARATAS DEL IGUAZÚ/MAYOR D. CARLOS EDUARDO KRAUSE (IGU/SARI): ELIMINACIÓN NAVAID “MM 75.0 MHz” / \"MM 75.0 MHz\" NAVAID REMOVAL. (ESP/ENG) - PERM -",
+   "published": "2026-07-06",
+   "pdf": "https://ais.anac.gob.ar/descarga/sup-6a4e5c6565125",
+   "codes": [
+    "SARI"
+   ],
+   "kind": "aerodrome"
+  },
+  {
+   "id": "A 172/26",
+   "title": "AIP ENR 2.1 – FIR, UIR, TMA, CTA - MODIFICACIONES EN TMA POSADAS / CHANGE IN POSADAS TMA (ESP/ENG) - PERM -",
+   "published": "2026-07-03",
+   "pdf": "https://ais.anac.gob.ar/descarga/sup-6a4e5c46696a9",
+   "codes": [],
+   "kind": "airspace"
+  },
+  {
+   "id": "A 167/26",
+   "title": "AD EZEIZA / MINISTRO PISTARINI (EZE /SAEZ): MODIFICACIONES EN AIP PARTE AD 2.10 - OBSTÁCULOS DEL AERÓDROMO / AIP CHANGES PART AD 2.10 - AERODROME OBSTACLES (ESP/ENG) - PERM –",
+   "published": "2026-06-30",
+   "pdf": "https://ais.anac.gob.ar/descarga/sup-6a43f0018e70a",
+   "codes": [],
+   "kind": "aerodrome"
+  },
+  {
+   "id": "A 165/26",
+   "title": "AD SAN CARLOS DE BARILOCHE (BAR/SAZS): MODIFICACIONES EN LA AIP PARTE AD 2.3 (ADUANA Y MIGRACIONES), AD 2.4 (COMBUSTIBLE) / CHANGES IN AIP PARTS AD 2.3 (CUSTOMS AND IMMIGRATION), AD 2.4 (FUEL) (ESP/ENG) - PERM –",
+   "published": "2026-06-26",
+   "pdf": "https://ais.anac.gob.ar/descarga/sup-6a3e9144b2af4",
+   "codes": [
+    "FUEL",
+    "SAZS"
+   ],
+   "kind": "aerodrome"
+  },
+  {
+   "id": "A 164/26",
+   "title": "AD BAHÍA BLANCA / COMANDANTE ESPORA (BCA/SAZB): NOVEDADES TEMPORALES EN EL ÁREA DE MOVIMIENTO / TEMPORARY NEWS ON THE MOVEMENT AREA (ESP/ENG) - TEMP –",
+   "published": "2026-06-26",
+   "pdf": "https://ais.anac.gob.ar/descarga/sup-6a3e6bcde48ed",
+   "codes": [
+    "SAZB"
+   ],
+   "kind": "aerodrome"
+  },
+  {
+   "id": "A 163/26",
+   "title": "AD CATARATAS DEL IGUAZÚ / MAYOR D. CARLOS EDUARDO KRAUSE (IGU/SARI): NOVEDADES TEMPORALES LGT OBST U/S / TEMPORARY NEWS LGT OBST U/S (ESP/ENG) - TEMP –",
+   "published": "2026-06-25",
+   "pdf": "https://ais.anac.gob.ar/descarga/sup-6a3d546478730",
+   "codes": [
+    "SARI"
+   ],
+   "kind": "aerodrome"
+  },
+  {
+   "id": "A 162/26",
+   "title": "MODIFICACIONES EN LA AIP PARTE ENR 3.1 – RUTAS DE NAVEGACIÓN CONVENCIONALES – AWY W72 / CHANGES IN AIP PART ENR 3.1– CONVENTIONAL NAVIGATION ROUTES – AWY W72 (ESP/ENG) - PERM –",
+   "published": "2026-06-25",
+   "pdf": "https://ais.anac.gob.ar/descarga/sup-6a3d423c70dcc",
+   "codes": [],
+   "kind": "publication"
+  },
+  {
+   "id": "A 161/26",
+   "title": "AD SAN MARTÍN DE LOS ANDES / AVIADOR C. CAMPOS (CHP/SAZY): NOVEDADES TEMPORALES EN EL AREA DE MOVIMIENTO/ TEMPORARY NEWS ON THE MOVEMENT AREA (ESP/ENG) - TEMP –",
+   "published": "2026-06-23",
+   "pdf": "https://ais.anac.gob.ar/descarga/sup-6a3afd97df2e6",
+   "codes": [
+    "SAZY"
+   ],
+   "kind": "aerodrome"
+  },
+  {
+   "id": "A 160/26",
+   "title": "AD SAN MARTÍN DE LOS ANDES / AVIADOR C. CAMPOS (CHP/SAZY): MODIFICACIONES EN LA AIP PARTE AD 2.3 ADUANA Y MIGRACIONES O/R / CHANGES IN AIP PART AD 2.3 CUSTOMS AND IMMIGRATION O/R (ESP/ENG) - PERM –",
+   "published": "2026-06-23",
+   "pdf": "https://ais.anac.gob.ar/descarga/sup-6a3ad3bd55319",
+   "codes": [
+    "SAZY"
+   ],
+   "kind": "aerodrome"
+  },
+  {
+   "id": "A 159/26",
+   "title": "AD RÍO GRANDE (GRA/SAWE): NOVEDADES TEMPORALES LGT OBST U/S / TEMPORARY NEWS LGT OBST U/S (ESP/ENG) - TEMP –",
+   "published": "2026-06-23",
+   "pdf": "https://ais.anac.gob.ar/descarga/sup-6a3aaa7776e34",
+   "codes": [
+    "SAWE"
+   ],
+   "kind": "aerodrome"
+  },
+  {
+   "id": "A 158/26",
+   "title": "AD CATAMARCA (CAT/SANC): MODIFICACIONES EN LA AIP PARTE AD 2.3, AD 2.4, AD 2.5, AD 2.6, AD 2.23 / CHANGES IN AIP PARTS AD 2.3, AD 2.4, AD 2.5, AD 2.6, AD 2.23 (ESP/ENG) - PERM -",
+   "published": "2026-06-22",
+   "pdf": "https://ais.anac.gob.ar/descarga/sup-6a393c62eb629",
+   "codes": [
+    "SANC"
+   ],
+   "kind": "aerodrome"
+  },
+  {
+   "id": "A 157/26",
+   "title": "MODIFICACIONES EN LA AIP PARTE GEN 3.5, AIP PARTE AD 2 Y MADHEL: HORARIO DE FUNCIONAMIENTO OFICINAS MET AD SAZG, SAZY, SAOS, SAOC, SANR, SADJ (ESP/ENG) - PERM –",
+   "published": "2026-06-19",
+   "pdf": "https://ais.anac.gob.ar/descarga/sup-6a3591d644e48",
+   "codes": [],
+   "kind": "publication"
+  },
+  {
+   "id": "A 156/26",
+   "title": "AD RECONQUISTA (RTA / SATR) MODIFICACIÓN EN LA AIP PARTE AD 2.18 / CHANGE IN AIP PART AD 2.18 (ESP/ENG) - PERM –",
+   "published": "2026-06-19",
+   "pdf": "https://ais.anac.gob.ar/descarga/sup-6a35869926820",
+   "codes": [],
+   "kind": "aerodrome"
+  },
+  {
+   "id": "A 155/26",
+   "title": "AD SAN LUIS / BRIG. MAYOR D. CÉSAR RAÚL OJEDA (UIS/SAOU): MODIFICACIONES EN LA AIP PARTE AD 2.2-6 / CHANGES IN AIP AD PART 2.2-6 (ESP/ENG) - PERM -",
+   "published": "2026-06-19",
+   "pdf": "https://ais.anac.gob.ar/descarga/sup-6a3585394ee11",
+   "codes": [
+    "SAOU"
+   ],
+   "kind": "aerodrome"
+  },
+  {
+   "id": "A 154/26",
+   "title": "AD COMODORO RIVADAVIA / GRAL. E. MOSCONI (CRV/SAVC) MODIFICACIÓN EN LA AIP PARTE AD 2.18 / CHANGE IN AIP PART AD 2.18 (ESP/ENG) - PERM -",
+   "published": "2026-06-19",
+   "pdf": "https://ais.anac.gob.ar/descarga/sup-6a35582b551b8",
+   "codes": [
+    "SAVC"
+   ],
+   "kind": "aerodrome"
+  },
+  {
+   "id": "A 153/26",
+   "title": "AD VILLA GESELL (GES/SAZV): DIFUSIÓN DEL PLANO DE AERÓDROMO – OACI Y EL PLANO DE OBSTÁCULOS DE AERÓDROMO TIPO B – OACI / DISSEMINATION OF THE ICAO AERODROME CHART AND THE ICAO TYPE B AERODROME OBSTACLE CHART (ESP/ENG) - PERM -",
+   "published": "2026-06-18",
+   "pdf": "https://ais.anac.gob.ar/descarga/sup-6a34152d32da8",
+   "codes": [
+    "SAZV"
+   ],
+   "kind": "aerodrome"
+  },
+  {
+   "id": "A 152/26",
+   "title": "MODIFICACIONES EN LA AIP PARTE ENR 6.12 – CARTA DE HELICORREDORES ÁREA METROPOLITANA BUENOS AIRES / CHANGES IN AIP PART ENR 6.12 – HELICOVERRIDE CHART BUENOS AIRES METROPOLITAN AREA (ESP/ENG) - PERM -",
+   "published": "2026-06-16",
+   "pdf": "https://ais.anac.gob.ar/descarga/sup-6a33ef5148b31",
+   "codes": [],
+   "kind": "publication"
+  },
+  {
+   "id": "A 151/26",
+   "title": "AD RECONQUISTA (RTA/SATR): COEFICIENTE DE FRICCIÓN DE LAS PISTAS / RUNWAYS COEFFICIENT OF FRICTION (ESP/ENG) - TEMP –",
+   "published": "2026-06-16",
+   "pdf": "https://ais.anac.gob.ar/descarga/sup-6a3a8ce5650b8",
+   "codes": [
+    "SATR"
+   ],
+   "kind": "aerodrome"
+  },
+  {
+   "id": "A 150/26",
+   "title": "MODIFICACIONES EN LA AIP PARTE ENR 1.6-6 – CARTA DE GUÍA VECTORIAL RADAR- OACI TMA BAIRES / CHANGES IN AIP PART ENR 1.6-6 – RADAR VECTOR GUIDANCE CHART - ICAO TMA BAIRES (ESP/ENG) - PERM -",
+   "published": "2026-06-16",
+   "pdf": "https://ais.anac.gob.ar/descarga/sup-6a317648a30eb",
+   "codes": [],
+   "kind": "airspace"
+  },
+  {
+   "id": "A 148/26",
+   "title": "AD PASO DE LOS LIBRES (LIB/SARL): MODIFICACIONES EN LA AIP PARTE AD 2.2, AD 2.3, AD 2.17 Y ENR 2.1 / CHANGES IN AIP PARTS AD 2.2, AD 2.3, AD 2.17 AND ENR 2.1(ESP/ENG) -PERM–",
+   "published": "2026-06-12",
+   "pdf": "https://ais.anac.gob.ar/descarga/sup-6a2c626d361ef",
+   "codes": [
+    "SARL"
+   ],
+   "kind": "aerodrome"
+  },
+  {
+   "id": "A 146/26",
+   "title": "AD RECONQUISTA (RTA/SATR): NOVEDADES TEMPORALES SSEI U/S / TEMPORARY NEWS SSEI U/S (ESP/ENG) - TEMP -",
+   "published": "2026-06-12",
+   "pdf": "https://ais.anac.gob.ar/descarga/sup-6a3a8ada4ccf2",
+   "codes": [
+    "SATR"
+   ],
+   "kind": "aerodrome"
+  },
+  {
+   "id": "A 144/26",
+   "title": "TMA SALTA (SASA): PROCEDIMIENTOS DE CONTINGENCIA ATS ACTIVADOS / ATS CONTINGENCY PROCEDURES ACTIVATED (ESP/ENG) - TEMP -",
+   "published": "2026-06-11",
+   "pdf": "https://ais.anac.gob.ar/descarga/sup-6a2afbd1438ab",
+   "codes": [
+    "SASA"
+   ],
+   "kind": "airspace"
+  },
+  {
+   "id": "A 142/26",
+   "title": "AD MARIANO MORENO (ENO/SADJ) - NOVEDADES TEMPORALES: PISTA 16/34 CLSD Y NUEVO TELÉFONO DE TWR / TEMPORARY NEWS: RWY 16/34 CLSD AND TWR - NEW PHONE NUMBER (ESP/ENG) - TEMP -",
+   "published": "2026-06-11",
+   "pdf": "https://ais.anac.gob.ar/descarga/sup-6a2af0eac0973",
+   "codes": [
+    "SADJ"
+   ],
+   "kind": "aerodrome"
+  },
+  {
+   "id": "A 141/26",
+   "title": "AD TANDIL / HÉROES DE MALVINAS (DIL/SAZT): NOVEDADES FRANJA RWY 01/19 EN MANTENIMIENTO / NEWS STRIP RWY 01/19 IN MAINTENANCE (ESP/ENG) - TEMP –",
+   "published": "2026-06-11",
+   "pdf": "https://ais.anac.gob.ar/descarga/sup-6a2ae2a390d76",
+   "codes": [
+    "SAZT"
+   ],
+   "kind": "aerodrome"
+  },
+  {
+   "id": "A 140/26",
+   "title": "AD TERMAS DE RÍO HONDO (TRH/SANR): MODIFICACIONES EN AIP PARTE AD – CARTAS DE PROCEDIMIENTO DE VUELO INSTRUMENTAL / CHANGES IN AIP AD PART - INSTRUMENTAL FLIGHT PROCEDURE CHARTS (ESP/ENG) (Eff 6-AGO-2026) - AIRAC -",
+   "published": "2026-06-10",
+   "pdf": "https://ais.anac.gob.ar/descarga/sup-6a2992ffd5c0c",
+   "codes": [
+    "SANR"
+   ],
+   "kind": "aerodrome"
+  },
+  {
+   "id": "A 139/26",
+   "title": "AD LA RIOJA / CAP. VICENTE ALMONACID (LAR/SANL): MODIFICACIONES EN AIP PARTE AD – CARTAS DE PROCEDIMIENTO DE VUELO INSTRUMENTAL / CHANGES IN AIP AD PART - INSTRUMENTAL FLIGHT PROCEDURE CHARTS (ESP/ENG) (Eff 6-AGO-2026) - AIRAC -",
+   "published": "2026-06-10",
+   "pdf": "https://ais.anac.gob.ar/descarga/sup-6a29882754142",
+   "codes": [
+    "SANL"
+   ],
+   "kind": "aerodrome"
+  },
+  {
+   "id": "A 138/26",
+   "title": "AD VILLA REYNOLDS (RYD/SAOR): MODIFICACIONES EN AIP PARTE AD – CARTAS DE PROCEDIMIENTO DE VUELO INSTRUMENTAL / CHANGES IN AIP AD PART - INSTRUMENTAL FLIGHT PROCEDURE CHARTS (ESP/ENG) (Eff 6-AGO-2026) - AIRAC -",
+   "published": "2026-06-10",
+   "pdf": "https://ais.anac.gob.ar/descarga/sup-6a297e517435f",
+   "codes": [
+    "SAOR"
+   ],
+   "kind": "aerodrome"
+  },
+  {
+   "id": "A 137/26",
+   "title": "AD MORÓN (MOR/SADM): MODIFICACIONES EN AIP PARTE AD – CARTAS DE PROCEDIMIENTOS VISUALES / CHANGES IN AIP AD PART - VISUAL PROCEDURES CHARTS (ESP/ENG) (Eff 6-AGO-2026) - AIRAC -",
+   "published": "2026-06-09",
+   "pdf": "https://ais.anac.gob.ar/descarga/sup-6a285a751ee77",
+   "codes": [
+    "SADM"
+   ],
+   "kind": "aerodrome"
+  },
+  {
+   "id": "A 135/26",
+   "title": "AD USHUAIA / MALVINAS ARGENTINAS (USU /SAWH): MODIFICACIONES EN AIP PARTE AD 2.19 / CHANGES TO AIP PART AD 2.19 (ESP/ENG)- PERM –",
+   "published": "2026-06-09",
+   "pdf": "https://ais.anac.gob.ar/descarga/sup-6a281ed869512",
+   "codes": [],
+   "kind": "aerodrome"
+  },
+  {
+   "id": "A 134/26",
+   "title": "AD SAN JUAN / DOMINGO FAUSTINO SARMIENTO (SANU/JUA) MODIFICACIONES EN AIP PARTE AD – CARTAS DE PROCEDIMIENTO DE VUELO INSTRUMENTAL / CHANGES IN AIP AD PART - INSTRUMENTAL FLIGHT PROCEDURE CHARTS (ESP/ENG) (Eff 6-AGO-2026) - AIRAC -",
+   "published": "2026-06-08",
+   "pdf": "https://ais.anac.gob.ar/descarga/sup-6a3a88338b3f5",
+   "codes": [],
+   "kind": "aerodrome"
+  },
+  {
+   "id": "A 133/26",
+   "title": "AD TRELEW / ALMIRANTE ZAR (TRE/SAVT): NOVEDADES TEMPORALES PAPI U/S / TEMPORARY NEWS PAPI U/S (ESP/ENG) - TEMP –",
+   "published": "2026-06-05",
+   "pdf": "https://ais.anac.gob.ar/descarga/sup-6a23150d07866",
+   "codes": [
+    "SAVT"
+   ],
+   "kind": "aerodrome"
+  },
+  {
+   "id": "A 131/26",
+   "title": "AD TERMAS DE RÍO HONDO (TRH/SANR): MODIFICACIONES EN LA AIP PARTE AD 2.3, AD 2.17 Y AD 2.18 / CHANGES IN AIP PARTS AD 2.3, AD 2.17 AND AD 2.18 (ESP/ENG) - PERM -",
+   "published": "2026-06-05",
+   "pdf": "https://ais.anac.gob.ar/descarga/sup-6a22d2e3ad418",
+   "codes": [
+    "SANR"
+   ],
+   "kind": "aerodrome"
+  },
+  {
+   "id": "A 130/26",
+   "title": "AD CATAMARCA (CAT/SANC): MODIFICACIONES EN AIP PARTE AD - CARTAS DE PROCEDIMIENTO DE VUELO INSTRUMENTAL / CHANGES IN AIP AD PART - INSTRUMENTAL FLIGHT PROCEDURE CHARTS (ESP/ENG) (Eff 6-AGO-2026) - AIRAC -",
+   "published": "2026-06-05",
+   "pdf": "https://ais.anac.gob.ar/descarga/sup-6a26f31157afc",
+   "codes": [
+    "SANC"
+   ],
+   "kind": "aerodrome"
+  },
+  {
+   "id": "A 129/26",
+   "title": "AD SAN LUIS / BRIG. MAYOR D. CÉSAR RAÚL OJEDA (UIS/SAOU): MODIFICACIONES EN AIP PARTE AD - CARTAS DE PROCEDIMIENTO DE VUELO INSTRUMENTAL / CHANGES IN AIP AD PART - INSTRUMENTAL FLIGHT PROCEDURE CHARTS (ESP/ENG) (Eff 6-AGO-2026) - AIRAC -",
+   "published": "2026-06-01",
+   "pdf": "https://ais.anac.gob.ar/descarga/sup-6a1dca058f2d1",
+   "codes": [
+    "SAOU"
+   ],
+   "kind": "aerodrome"
+  },
+  {
+   "id": "A 128/26",
+   "title": "AD VILLA REYNOLDS (RYD/SAOR): MODIFICACIÓN EN LA AIP PARTE AD 2.18 / CHANGE IN AIP PART AD 2.18 (ESP/ENG) - PERM -",
+   "published": "2026-06-01",
+   "pdf": "https://ais.anac.gob.ar/descarga/sup-6a1d78d7d1064",
+   "codes": [
+    "SAOR"
+   ],
+   "kind": "aerodrome"
+  },
+  {
+   "id": "A 127/26",
+   "title": "MODIFICACIONES EN LA AIP PARTE ENR 2.1 (TMA PARANÁ) Y PARTE AD 2.17 (SAAP) / CHANGES IN AIP PART ENR 2.1 (PARANÁ TMA) AND PART AD 2.17 (SAAP) (ESP/ENG) - TEMP -",
+   "published": "2026-05-29",
+   "pdf": "https://ais.anac.gob.ar/descarga/sup-6a198f5c86d4d",
+   "codes": [
+    "SAAP"
+   ],
+   "kind": "airspace"
+  },
+  {
+   "id": "A 125/26",
+   "title": "AD SALTA / GRAL. DON MARTÍN MIGUEL DE GÜEMES (SAL/SASA): MODIFICACIONES EN LA AIP PARTES AD 2.18, AD 2. I, AD 2.K Y AD 2.M (FRECUENCIA ATIS) / CHANGES IN AIP PARTS AD 2.18, AD 2.I, AD 2.K AND AD 2.M (ATIS FREQUENCY) (ESP/ENG) - PERM -",
+   "published": "2026-05-27",
+   "pdf": "https://ais.anac.gob.ar/descarga/sup-6a174d25e3bdc",
+   "codes": [
+    "SASA"
+   ],
+   "kind": "aerodrome"
+  },
+  {
+   "id": "A 122/26",
+   "title": "TMA ESQUEL: NO PROVEE ATS DEBIDO A FALTA DE COBERTURA DE COMUNICACIONES / IS UNABLE TO PROVIDE ATS DUE TO A LACK OF COMMS COVERAGE (ESP/ENG) - TEMP -",
+   "published": "2026-05-19",
+   "pdf": "https://ais.anac.gob.ar/descarga/sup-6a0df3a7a1850",
+   "codes": [],
+   "kind": "airspace"
+  },
+  {
+   "id": "A 119/26",
+   "title": "AD MENDOZA / EL PLUMERILLO (DOZ/SAME): MODIFICACIONES EN AIP PARTE AD 2.19 (HORARIO DE FUNCIONAMIENTO Y ELEVACIÓN DEL ILS/LOC) / CHANGES TO AIP PART AD 2.19 (HOURS OF OPERATION AND ILS/LOC ELEVATION) (ESP/ENG) - PERM -",
+   "published": "2026-05-13",
+   "pdf": "https://ais.anac.gob.ar/descarga/sup-6a04a02310dc0",
+   "codes": [
+    "SAME"
+   ],
+   "kind": "aerodrome"
+  },
+  {
+   "id": "A 117/26",
+   "title": "AD CATARATAS DEL IGUAZÚ / MAYOR D. CARLOS EDUARDO KRAUSE (IGU/SARI): NOVEDADES TEMPORALES TWY ACCESO AL AEROCLUB CLSD / TEMPORARY NEWS TWY ACCESS TO THE AEROCLUB CLSD (ESP/ENG) - TEMP -",
+   "published": "2026-05-12",
+   "pdf": "https://ais.anac.gob.ar/descarga/sup-6a037d310c761",
+   "codes": [
+    "SARI"
+   ],
+   "kind": "aerodrome"
+  },
+  {
+   "id": "A 116/26",
+   "title": "AD RESISTENCIA (SIS/SARE): CAMBIOS EN AIP PARTE AD (AD 2.2-5; AD 2.9-3 Y PLANO AD) / AIP CHANGES PART AD (AD 2.2-5; AD 2.9-3 AND AD CHART) (ESP/ENG) - PERM -",
+   "published": "2026-05-12",
+   "pdf": "https://ais.anac.gob.ar/descarga/sup-6a036694556ae",
+   "codes": [
+    "SARE"
+   ],
+   "kind": "aerodrome"
+  },
+  {
+   "id": "A 115/26",
+   "title": "AD TUCUMÁN/TENIENTE BENJAMÍN MATIENZO (TUC/SANT): NOVEDAD TEMPORAL TRANSMISÓMETRO RVR RWY 02 U/S / TEMPORARY NEWS TRANSMISOMETRO RWY 02 U/S (ESP/ENG) - TEMP -",
+   "published": "2026-05-11",
+   "pdf": "https://ais.anac.gob.ar/descarga/sup-6a01e67ed13a6",
+   "codes": [
+    "SANT"
+   ],
+   "kind": "aerodrome"
+  },
+  {
+   "id": "A 114/26",
+   "title": "AD SAN MARTÍN DE LOS ANDES / AVIADOR C. CAMPOS (CHP/SAZY): MODIFICACIONES EN AIP PARTE AD 2.14 - PAPI / CHANGES IN AIP PART AD 2.14 - PAPI (ESP/ENG) - PERM -",
+   "published": "2026-05-07",
+   "pdf": "https://ais.anac.gob.ar/descarga/sup-69fcd4529e552",
+   "codes": [
+    "SAZY"
+   ],
+   "kind": "aerodrome"
+  },
+  {
+   "id": "A 112/26",
+   "title": "AD SAAR, SARI, SAZN, SAZS: MODIFICACIONES PERMANENTES EN AIP PARTE AD 2.3 ADUANA E INMIGRACIÓN / PERMANENT CHANGES TO AIP PART AD 2.3 CUSTOMS AND IMMIGRATION (ESP/ENG) (Eff 1-JUN-2026) - PERM -",
+   "published": "2026-04-30",
+   "pdf": "https://ais.anac.gob.ar/descarga/sup-6a0df3dd5ca59",
+   "codes": [],
+   "kind": "aerodrome"
+  },
+  {
+   "id": "A 111/26",
+   "title": "FIR CÓRDOBA (SACF): PROCEDIMIENTOS DE CONTINGENCIA ATS ACTIVADOS / ATS CONTINGENCY PROCEDURES ACTIVATED (ESP/ENG) - TEMP –",
+   "published": "2026-04-27",
+   "pdf": "https://ais.anac.gob.ar/descarga/sup-69efb78ee266b",
+   "codes": [
+    "SACF"
+   ],
+   "kind": "airspace"
+  },
+  {
+   "id": "A 108/26",
+   "title": "FIR MENDOZA (SAMF): PROCEDIMIENTOS DE CONTINGENCIA ATS ACTIVADOS / ATS CONTINGENCY PROCEDURES ACTIVATED (ESP/ENG) - TEMP –",
+   "published": "2026-04-24",
+   "pdf": "https://ais.anac.gob.ar/descarga/sup-69ebdc925e58c",
+   "codes": [
+    "SAMF"
+   ],
+   "kind": "airspace"
+  },
+  {
+   "id": "A 107/26",
+   "title": "FIR MENDOZA (SAMF): PROCEDIMIENTOS DE CONTINGENCIA ATS ACTIVADOS / ATS CONTINGENCY PROCEDURES ACTIVATED (ESP/ENG) - TEMP –",
+   "published": "2026-04-24",
+   "pdf": "https://ais.anac.gob.ar/descarga/sup-69ebd90c540f4",
+   "codes": [
+    "SAMF"
+   ],
+   "kind": "airspace"
+  },
+  {
+   "id": "A 106/26",
+   "title": "FIR EZEIZA (SAEF): PROCEDIMIENTOS DE CONTINGENCIA ATS ACTIVADOS / ATS CONTINGENCY PROCEDURES ACTIVATED (ESP/ENG) - TEMP –",
+   "published": "2026-04-24",
+   "pdf": "https://ais.anac.gob.ar/descarga/sup-69ebd88445c6e",
+   "codes": [
+    "SAEF"
+   ],
+   "kind": "airspace"
+  },
+  {
+   "id": "A 105/26",
+   "title": "AD SANTA ROSA (OSA/SAZR): MODIFICACIONES TEMPORALES DEL SERVICIO DE SALVAMENTO Y EXTINCIÓN DE INCENDIOS (SSEI) / TEMPORARY CHANGES TO THE RESCUE AND FIRE FIGHTING SERVICE (RFFS) (ESP/ENG) - TEMP –",
+   "published": "2026-04-23",
+   "pdf": "https://ais.anac.gob.ar/descarga/sup-69ea8506912ea",
+   "codes": [
+    "RFFS",
+    "SAZR",
+    "SSEI"
+   ],
+   "kind": "aerodrome"
+  },
+  {
+   "id": "A 102/26",
+   "title": "AD CONCORDIA / COMODORO JUAN JOSÉ PIERRESTEGUI (DIA/SAAC): MODIFICACIÓN TEMPORAL HORARIO EMA / TEMPORARY CHANGES OF EMA TIME (ESP/ENG) - TEMP -",
+   "published": "2026-04-20",
+   "pdf": "https://ais.anac.gob.ar/descarga/sup-69e6748253d25",
+   "codes": [
+    "SAAC"
+   ],
+   "kind": "aerodrome"
+  },
+  {
+   "id": "A 101/26",
+   "title": "AD CÓRDOBA / ING. AER. A. L. V. TARAVELLA (CBA/SACO): NOVEDADES TEMPORALES CEILOMETER RWY 19 U/S / TEMPORARY NEWS CEILOMETER RWY 19 U/S (ESP/ENG) - TEMP -",
+   "published": "2026-04-15",
+   "pdf": "https://ais.anac.gob.ar/descarga/sup-69df88cb7412f",
+   "codes": [
+    "SACO"
+   ],
+   "kind": "aerodrome"
+  },
+  {
+   "id": "A 100/26",
+   "title": "AD VICECOMODORO MARAMBIO (MBI/SAWB): NOVEDADES TEMPORALES RFFS, VOR/DME Y NDB INUTILIZABLE / TEMPORARY NEWS TO RFFS, VOR/DME AND NDB UNUSABLE (ESP/ENG) - TEMP -",
+   "published": "2026-04-14",
+   "pdf": "https://ais.anac.gob.ar/descarga/sup-69de56194bc88",
+   "codes": [
+    "SAWB"
+   ],
+   "kind": "aerodrome"
+  },
+  {
+   "id": "A 087/26",
+   "title": "AD CATAMARCA (CAT/SANC): MODIFICACIONES TEMPORALES DEL HORARIO DE SERVICIO COMBUSTIBLE / TEMPORARY CHANGES TO FUEL SERVICE HOURS (ESP/ENG) - TEMP –",
+   "published": "2026-03-31",
+   "pdf": "https://ais.anac.gob.ar/descarga/sup-69cc2ee77221d",
+   "codes": [
+    "SANC"
+   ],
+   "kind": "aerodrome"
+  },
+  {
+   "id": "A 085/26",
+   "title": "AD RÍO GRANDE (GRA/SAWE): NOVEDADES TEMPORALES LGT OBST U/S / LGT OBST U/S TEMPORARY NEWS (ESP/ENG) - TEMP –",
+   "published": "2026-03-31",
+   "pdf": "https://ais.anac.gob.ar/descarga/sup-69cc024a766dd",
+   "codes": [
+    "SAWE"
+   ],
+   "kind": "aerodrome"
+  },
+  {
+   "id": "A 073/26",
+   "title": "AD MORÓN (MOR/SADM) NOVEDAD TEMPORAL SSEI U/S / TEMPORARY NEWS RFFS U/S (ESP/ENG) - TEMP –",
+   "published": "2026-03-13",
+   "pdf": "https://ais.anac.gob.ar/descarga/sup-69b4354062e09",
+   "codes": [
+    "SADM"
+   ],
+   "kind": "aerodrome"
+  },
+  {
+   "id": "A 053/26",
+   "title": "AD TUCUMÁN/TENIENTE BENJAMÍN MATIENZO (TUC/SANT): CORRECCIONES EN AIP PARTE AD – CARTAS DE PROCEDIMIENTO DE VUELO INSTRUMENTAL / CORRECTIONS IN AIP PART AD – INSTRUMENT FLIGHT PROCEDURE CHARTS (ESP/ENG) - PERM -",
+   "published": "2026-02-19",
+   "pdf": "https://ais.anac.gob.ar/descarga/sup-699751ae90b17",
+   "codes": [
+    "SANT"
+   ],
+   "kind": "aerodrome"
+  },
+  {
+   "id": "A 048/26",
+   "title": "TMA ESQUEL (ESQ): PROCEDIMIENTOS DE CONTINGENCIA ATS ACTIVADOS / ATS CONTINGENCY PROCEDURES ACTIVATED (ESP/ENG) - TEMP –",
+   "published": "2026-02-13",
+   "pdf": "https://ais.anac.gob.ar/descarga/sup-698f9aa2e4641",
+   "codes": [],
+   "kind": "airspace"
+  },
+  {
+   "id": "A 047/26",
+   "title": "TMA EL CALAFATE (ECA): PROCEDIMIENTOS DE CONTINGENCIA ATS ACTIVADOS / ATS CONTINGENCY PROCEDURES ACTIVATED (ESP/ENG) - TEMP –",
+   "published": "2026-02-13",
+   "pdf": "https://ais.anac.gob.ar/descarga/sup-698f9a162a4f7",
+   "codes": [],
+   "kind": "airspace"
+  },
+  {
+   "id": "A 040/26",
+   "title": "AD CORRIENTES (SARC/CRR): NOVEDADES ALS RWY 20 INOP / NEW ALS RWY 20 INOP (ESP/ENG) - TEMP -",
+   "published": "2026-02-10",
+   "pdf": "https://ais.anac.gob.ar/descarga/sup-698b4d8467d39",
+   "codes": [],
+   "kind": "aerodrome"
+  },
+  {
+   "id": "A 031/26",
+   "title": "AD SANTIAGO DEL ESTERO / VCOM. ÁNGEL DE LA PAZ ARAGONÉS (SDE/SANE): RESTRICCIÓN TEMPORAL VOR SDE / TEMPORARY VOR SDE RESTRICTIONS (ESP/ENG) - TEMP –",
+   "published": "2026-01-23",
+   "pdf": "https://ais.anac.gob.ar/descarga/sup-6973b6a00cfdd",
+   "codes": [
+    "SANE"
+   ],
+   "kind": "aerodrome"
+  },
+  {
+   "id": "A 250/25",
+   "title": "TMA CATAMARCA (SANC): PROCEDIMIENTOS DE CONTINGENCIA ATS ACTIVADOS / ATS CONTINGENCY PROCEDURES ACTIVATED-(ESP/ENG) - TEMP -",
+   "published": "2025-12-29",
+   "pdf": "https://ais.anac.gob.ar/descarga/sup-6952d35a160f3",
+   "codes": [
+    "SANC"
+   ],
+   "kind": "airspace"
+  },
+  {
+   "id": "A 224/25",
+   "title": "AD SAN RAFAEL / S. A. SANTIAGO GERMANO (SRA/SAMR): MODIFICACIONES EN AIP PARTE AD – CARTAS DE PROCEDIMIENTO DE VUELO INSTRUMENTAL / CHANGES IN AIP AD PART – INSTRUMENTAL FLIGHT PROCEDURE CHARTS (ESP/ENG) (Eff: 25-DIC-25) - AIRAC -",
+   "published": "2025-11-26",
+   "pdf": "https://ais.anac.gob.ar/descarga/sup-69275431504cd",
+   "codes": [
+    "SAMR"
+   ],
+   "kind": "aerodrome"
+  },
+  {
+   "id": "A 220/25",
+   "title": "TMA TUCUMÁN (SANT): PROCEDIMIENTOS DE CONTINGENCIA ATS ACTIVADOS / ATS CONTINGENCY PROCEDURES ACTIVATED (ESP/ENG) - TEMP -",
+   "published": "2025-11-26",
+   "pdf": "https://ais.anac.gob.ar/descarga/sup-692741907c44c",
+   "codes": [
+    "SANT"
+   ],
+   "kind": "airspace"
+  },
+  {
+   "id": "A 140/25",
+   "title": "VIEDMA / GOBERNADOR CASTELLO (VIE/SAVV): MODIFICACIONES EN AIP VOL. II (AD) – CARTAS DE PROCEDIMIENTO DE VUELO INSTRUMENTAL / CHANGES IN AIP VOL. II (AD) - INSTRUMENTAL FLIGHT PROCEDURE CHARTS (ESP/ENG) (Eff: 10-JUL-25) - AIRAC -",
+   "published": "2025-06-12",
+   "pdf": "https://ais.anac.gob.ar/descarga/sup-684a084b4c36d",
+   "codes": [
+    "SAVV"
+   ],
+   "kind": "publication"
+  },
+  {
+   "id": "A 136/25",
+   "title": "PUERTO MADRYN / EL TEHUELCHE (DRY/SAVY): MODIFICACIONES EN AIP VOL. II (AD) – CARTAS DE PROCEDIMIENTO DE VUELO INSTRUMENTAL / CHANGES IN AIP VOL. II (AD) - INSTRUMENTAL FLIGHT PROCEDURE CHARTS (ESP/ENG) (Eff: 10-JUL-25) - AIRAC -",
+   "published": "2025-06-12",
+   "pdf": "https://ais.anac.gob.ar/descarga/sup-684a07e62bc94",
+   "codes": [
+    "SAVY"
+   ],
+   "kind": "publication"
+  },
+  {
+   "id": "A 126/25",
+   "title": "AD EL CALAFATE (SAWC/ECA) MODIFICACIONES EN AIP VOL. II (AD) – CARTAS DE PROCEDIMIENTO DE VUELO INSTRUMENTAL / CHANGES IN AIP VOL. II (AD) - INSTRUMENTAL FLIGHT PROCEDURE CHARTS (ESP/ENG) (Eff: 7-AGO-25) - AIRAC -",
+   "published": "2025-06-10",
+   "pdf": "https://ais.anac.gob.ar/descarga/sup-684869a4933fe",
+   "codes": [],
+   "kind": "aerodrome"
+  },
+  {
+   "id": "A 107/25",
+   "title": "SALTA / GRAL. DON MARTÍN MIGUEL DE GÜEMES (SAL/SASA): MODIFICACIONES EN AIP VOL. II (AD) – CARTAS DE PROCEDIMIENTO DE VUELO INSTRUMENTAL / CHANGES IN AIP VOL. II (AD) - INSTRUMENTAL FLIGHT PROCEDURE CHARTS (ESP/ENG) (Eff: 10-JUL-25) - AIRAC -",
+   "published": "2025-05-14",
+   "pdf": "https://ais.anac.gob.ar/descarga/sup-682517323e65a",
+   "codes": [
+    "SASA"
+   ],
+   "kind": "publication"
+  },
+  {
+   "id": "A 106/25",
+   "title": "MAR DEL PLATA / ASTOR PIAZZOLLA (MDP/SAZM): MODIFICACIONES EN AIP VOL. II (AD) – CARTAS DE PROCEDIMIENTO DE VUELO INSTRUMENTAL / CHANGES IN AIP VOL. II (AD) - INSTRUMENTAL FLIGHT PROCEDURE CHARTS (ESP/ENG) (Eff: 10-JUL-25) - AIRAC -",
+   "published": "2025-05-14",
+   "pdf": "https://ais.anac.gob.ar/descarga/sup-6824db186e304",
+   "codes": [
+    "SAZM"
+   ],
+   "kind": "publication"
+  },
+  {
+   "id": "A 105/25",
+   "title": "RESISTENCIA (SIS/SARE): MODIFICACIONES EN AIP VOL. II (AD) – CARTAS DE PROCEDIMIENTO DE VUELO INSTRUMENTAL / CHANGES IN AIP VOL. II (AD) - INSTRUMENTAL FLIGHT PROCEDURE CHARTS (ESP/ENG) (Eff: 10-JUL-25) - AIRAC -",
+   "published": "2025-05-14",
+   "pdf": "https://ais.anac.gob.ar/descarga/sup-6825f5fbeb926",
+   "codes": [
+    "SARE"
+   ],
+   "kind": "publication"
+  },
+  {
+   "id": "A 104/25",
+   "title": "TRELEW / ALMIRANTE ZAR (TRE/SAVT): MODIFICACIONES EN AIP VOL. II (AD) – CARTAS DE PROCEDIMIENTO DE VUELO INSTRUMENTAL / CHANGES IN AIP VOL. II (AD) - INSTRUMENTAL FLIGHT PROCEDURE CHARTS (ESP/ENG) (Eff: 10-JUL-25) - AIRAC -",
+   "published": "2025-05-14",
+   "pdf": "https://ais.anac.gob.ar/descarga/sup-6824dc3d37534",
+   "codes": [
+    "SAVT"
+   ],
+   "kind": "publication"
+  },
+  {
+   "id": "A 103/25",
+   "title": "COMODORO RIVADAVIA / GRAL. E. MOSCONI (CRV/ SAVC -): MODIFICACIONES EN AIP VOL. II (AD) – CARTAS DE PROCEDIMIENTO DE VUELO INSTRUMENTAL / CHANGES IN AIP VOL. II (AD) - INSTRUMENTAL FLIGHT PROCEDURE CHARTS (ESP/ENG) (Eff: 10-JUL-25) - AIRAC -",
+   "published": "2025-05-14",
+   "pdf": "https://ais.anac.gob.ar/descarga/sup-6824cd7ccf3b9",
+   "codes": [],
+   "kind": "publication"
+  },
+  {
+   "id": "A 102/25",
+   "title": "SAN CARLOS DE BARILOCHE (BAR/SAZS): MODIFICACIONES EN AIP VOL. II (AD) – CARTAS DE PROCEDIMIENTO DE VUELO INSTRUMENTAL / CHANGES IN AIP VOL. II (AD) - INSTRUMENTAL FLIGHT PROCEDURE CHARTS (ESP/ENG) (Eff: 10-JUL-25) - AIRAC -",
+   "published": "2025-05-14",
+   "pdf": "https://ais.anac.gob.ar/descarga/sup-6824ced394c7a",
+   "codes": [
+    "SAZS"
+   ],
+   "kind": "publication"
+  },
+  {
+   "id": "A 100/25",
+   "title": "JUJUY / GOBERNADOR HORACIO GUZMÁN (JUJ/SASJ): MODIFICACIONES EN AIP VOL. II (AD) – CARTAS DE PROCEDIMIENTO DE VUELO INSTRUMENTAL / CHANGES IN AIP VOL. II (AD) - INSTRUMENTAL FLIGHT PROCEDURE CHARTS (ESP/ENG) (Eff: 10-JUL-25) - AIRAC -",
+   "published": "2025-05-14",
+   "pdf": "https://ais.anac.gob.ar/descarga/sup-6824be095714f",
+   "codes": [
+    "SASJ"
+   ],
+   "kind": "publication"
+  },
+  {
+   "id": "A 008/25",
+   "title": "CRONOGRAMA PARA LA CERTIFICACIÓN DE AERÓDROMOS INTERNACIONALES / SCHEDULE FOR THE CERTIFICATION OF INTERNATIONAL AERODROMES (ESP/ENG) - TEMP -",
+   "published": "2025-01-20",
+   "pdf": "https://ais.anac.gob.ar/descarga/sup-678e86f70ff30",
+   "codes": [],
+   "kind": "other"
+  },
+  {
+   "id": "A 006/23",
+   "title": "OBSTÁCULOS EN EL AD LA RIOJA / CAP. VICENTE ALMONACID (LAR/SANL) / OBSTACLES IN AD LA RIOJA / CAP. VICENTE ALMONACID (LAR/SANL) (ESP/ENG) - PERM -",
+   "published": "2023-01-12",
+   "pdf": "https://ais.anac.gob.ar/descarga/sup-63c0267e056bf",
+   "codes": [
+    "SANL"
+   ],
+   "kind": "other"
+  },
+  {
+   "id": "A 085/22",
+   "title": "OBSTÁCULOS EN LA FIR CBA / OBSTACLES IN THE FIR CBA (ESP/ENG) - TEMP -",
+   "published": "2022-12-02",
+   "pdf": "https://ais.anac.gob.ar/descarga/sup-638a1da9c70b2",
+   "codes": [],
+   "kind": "airspace"
+  },
+  {
+   "id": "A 081/22",
+   "title": "OBSTÁCULOS EN EL AD PUERTO MADRYN / EL TEHUELCHE - (DRY/SAVY) / OBSTACLES IN AD PUERTO MADRYN / EL TEHUELCHE - (DRY/SAVY) (ESP/ENG) - TEMP -",
+   "published": "2022-11-24",
+   "pdf": "https://ais.anac.gob.ar/descarga/sup-637fc3e4bd7c9",
+   "codes": [
+    "SAVY"
+   ],
+   "kind": "other"
+  },
+  {
+   "id": "A 076/22",
+   "title": "TARTAGAL / GENERAL E. MOSCONI - (TAR / SAST): NUEVO PLANO DE OBSTÁCULOS DE AERÓDROMO TIPO B – OACI / ICAO - NEW TYPE B AERODROME OBSTACLE CHART (ESP/ENG) - PERM –",
+   "published": "2022-11-18",
+   "pdf": "https://ais.anac.gob.ar/descarga/sup-6377efb75c4cd",
+   "codes": [],
+   "kind": "other"
+  },
+  {
+   "id": "A 069/22",
+   "title": "OBSTÁCULOS EN EL AD SAUCE VIEJO / SANTA FE (SVO/SAAV) / OBSTACLES IN AD SAUCE VIEJO / SANTA FE (SVO/SAAV) (ESP/ENG) - TEMP -",
+   "published": "2022-11-14",
+   "pdf": "https://ais.anac.gob.ar/descarga/sup-637297654aa5e",
+   "codes": [
+    "SAAV"
+   ],
+   "kind": "other"
+  },
+  {
+   "id": "A 061/22",
+   "title": "OBSTÁCULOS EN EL AD GUALEGUAYCHÚ - (GUA/SAAG) / OBSTACLES IN AD GUALEGUAYCHÚ - (GUA/SAAG) (ENG/ESP) - PERM -",
+   "published": "2022-11-10",
+   "pdf": "https://ais.anac.gob.ar/descarga/sup-636ceff887fcc",
+   "codes": [
+    "SAAG"
+   ],
+   "kind": "other"
+  },
+  {
+   "id": "A 059/22",
+   "title": "OBSTÁCULOS EN EL AD GUALEGUAYCHÚ - (GUA/SAAG) / OBSTACLES IN AD GUALEGUAYCHÚ - (GUA/SAAG) (ESP/ENG) - PERM –",
+   "published": "2022-11-09",
+   "pdf": "https://ais.anac.gob.ar/descarga/sup-636bd1aa7ffe7",
+   "codes": [
+    "SAAG"
+   ],
+   "kind": "other"
+  },
+  {
+   "id": "A 058/22",
+   "title": "OBSTÁCULOS EN EL AD MARIANO MORENO - (ENO/SADJ) / OBSTACLES IN AD MARIANO MORENO - (ENO/SADJ) (ESP/ENG) - PERM –",
+   "published": "2022-11-08",
+   "pdf": "https://ais.anac.gob.ar/descarga/sup-636a6c4e041fa",
+   "codes": [
+    "SADJ"
+   ],
+   "kind": "other"
+  },
+  {
+   "id": "A 030/22",
+   "title": "OBSTÁCULOS EN EL AD EZEIZA / MINISTRO PISTARINI (EZE / SAEZ) / OBSTACLES IN AD EZEIZA / MINISTRO PISTARINI (EZE / SAEZ) (ESP/ENG) - PERM –",
+   "published": "2022-09-30",
+   "pdf": "https://ais.anac.gob.ar/descarga/sup-635c204c99485",
+   "codes": [],
+   "kind": "other"
+  },
+  {
+   "id": "A 026/22",
+   "title": "OBSTÁCULOS EN EL AD SAN FERNADO (FDO/SADF) / OBSTACLES IN AD SAN FERNADO (FDO/SADF) (ESP/ENG) - TEMP -",
+   "published": "2022-09-30",
+   "pdf": "https://ais.anac.gob.ar/descarga/sup-669666a80406b",
+   "codes": [
+    "SADF"
+   ],
+   "kind": "other"
+  },
+  {
+   "id": "A 025/22",
+   "title": "OBSTÁCULOS EN LA FIR EZE / OBSTACLES IN THE FIR EZE (ESP/ENG) - TEMP -",
+   "published": "2022-09-30",
+   "pdf": "https://ais.anac.gob.ar/descarga/sup-635c200c973ee",
+   "codes": [],
+   "kind": "airspace"
+  }
+ ]
+}
