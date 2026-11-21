@@ -1,0 +1,30 @@
+{
+  "updated": "2026-11-21T11:28:22Z",
+  "files": {
+    "ar-notams.geojson": {
+      "bytes": 57955,
+      "sha256": "578d9cb339dd1ee3dcc805da0c6e77eea5e20045d1911d0af841e27dbcedd1cf",
+      "assetUpdated": "2026-11-21T10:55:00Z"
+    },
+    "omae-notams.geojson": {
+      "bytes": 49618,
+      "sha256": "382bd9255604975c968891fca1d402aa2e5ba40586d80add72e1f89c59190c65",
+      "assetUpdated": "2026-11-21T10:01:48Z"
+    },
+    "uk-notams.geojson": {
+      "bytes": 338476,
+      "sha256": "18a374b4b4090114401c060b5ca677a044fec44fd443cdf6cf2565734097bda1",
+      "assetUpdated": "2026-11-21T02:47:34Z"
+    },
+    "us-notams.geojson": {
+      "bytes": 195509,
+      "sha256": "72f8011f358d941a3909bf751de2e6a98dcd478d307a3a4608b5f0c2189f301f",
+      "assetUpdated": "2026-11-21T11:27:54Z"
+    },
+    "ar-supplements.json": {
+      "bytes": 52240,
+      "sha256": "e0e7a244eed2675cc6048753d2711a0676d11c91a9b1a94a71db3af4642129d5",
+      "assetUpdated": "2026-11-21T02:50:07Z"
+    }
+  }
+}
